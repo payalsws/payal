@@ -1,0 +1,128 @@
+body {
+    font-family: var(--Jost-sans-serif) !important;
+}
+.Sweat_box p {
+    font-size:var(--font-14);
+}
+.Sweat_box p {
+    font-size:var(--font-14);
+    word-spacing: 2px;
+}
+a.und_text:hover {
+    color: var(--color-one) !important;
+}
+.ship_box p{
+font-size:var(--font-14);
+}
+.ship_box span {
+    color:var(--color-primary);
+    font-size:var(--font-13);
+    font-weight:var(--font-weight-600);
+}
+.shipping_bar {
+    background:var(--color-primary)!important;
+}
+.qtySelector{
+	border: var(--border-seven);
+	width: 107px;
+	height: 35px;
+	margin: 10px auto 0;
+}
+.qtySelector .fa{
+	padding: 10px 5px;
+	width: 35px;
+	height: 100%;
+	float: left;
+	cursor: pointer;
+}
+.qtySelector .fa.clicked{
+	font-size:var(--font-12);
+	padding: 12px 5px;
+}
+
+.qtySelector .qtyValue{
+	border: none;
+	padding: 5px;
+	width: 35px;
+	height: 100%;
+	float: left;
+	text-align: center
+}
+.crose_icon {
+    left: -9px;
+    background: var(--color-red);
+    padding: 2px 4px;
+    border-radius: 69%;
+    font-size:var(--font-12);
+}
+.coupon_tex {
+    width: 45%;
+}.cart_btn1 a {
+    font-weight:var(--font-weight-500);
+}
+.cart_btn {
+    background: var(--background-color);
+    width: 23%;
+    height: 42px;
+    border-radius: var(--border-radius);
+}.cart_btn:hover {
+    background: var(--background-color-two);
+    color: var(--background-white) !important;
+}.cart_btn2 {
+    background:var(--color-primary);
+    padding: 0px 13px;
+    height: 42px;
+    opacity: 0.6;
+}
+.totals_box {
+    -webkit-box-shadow:var(--box-shadow-one);
+    box-shadow: var(--box-shadow-one);
+}
+p.card-title {
+    font-weight:var(--font-weight-400);
+    font-size:var(--font-16);
+}
+.Subtotal_content p {
+    font-size:var(--font-14);
+}
+
+.Subtotal_content span {
+    font-size:var(--font-14);
+}
+.Shipping 
+label {
+   font-size:var(--font-13);
+}
+.Change {
+    font-size: var(--font-14) !important;
+    color: var(--color-primary) !important;
+}
+.totals_box sapn {
+    font-size:var(--font-14);
+}.last_cont 
+strong {
+   font-size:var(--font-20);
+}
+.Proceed_btn {
+    background:var(--color-primary);
+    padding: 15px 0;
+}
+.Shipping  p {
+    font-size:var(--font-14);
+}.Local_con 
+ input {
+    right: 0;
+    top: 5px;
+}
+.Local_con 
+label {
+   padding-left: 25px;
+}.Proceed_btn:hover {
+    opacity: 0.8;
+}
+.flat_input  {
+    width: 10px !important;
+    height: 10px !important;
+    left: 127px !important;
+    top: 0px;
+}

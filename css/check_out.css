@@ -1,0 +1,151 @@
+.Shipping {
+    color: #4f5f7b;
+    font-weight: 700;
+    font-size: 19px;
+}
+.Shippinghead {
+    width: 100%;
+    background-color: #f7f8f9;
+    height: 60px;
+}
+.Shippingitems{
+    border: 1px solid #ebefea;
+}
+
+.red {
+    accent-color: red;
+}
+.Change{
+    background-color: #0046be !important;
+    border-color:#0046be !important ;
+}
+
+.country {
+    border: 1px solid gray;
+    padding: 7px 30px;
+}
+.drops .dropdown-toggle::after {
+    position: absolute !important;
+    top: 20px !important;
+    right: 30px !important;    
+}
+.plusone::after {
+    position: absolute !important;
+    top: 20px !important;
+    right: 15px !important;
+}
+
+.texthight {
+    height: 40px;
+}
+
+.down {
+    font-size: 19px;
+}
+
+.new {
+    background-color: #f8f9fa;   
+    padding: 15px 0px;
+    border: 1px solid #ebefea;
+
+}
+@media screen and (max-width: 450px) {
+    .tdfont {
+        font-size: 12px;
+    }
+    .Change {
+        font-size: 12px !important;
+    }
+    .plusone::after {
+        position: absolute !important;
+        top: 20px !important;
+        right: 10px !important;
+    }
+    .Shipping {        
+        font-size: 16px;
+    }
+    .down {
+        font-size: 16px;
+    }
+    .Postal {
+        height: 34px !important;
+        border: 1px solid gray;
+    }
+}
+@media screen and (max-width: 375px) {
+   .space1{
+    width: 500px !important;
+   }
+   .drops .dropdown-toggle::after {
+    position: absolute !important;
+    top: 19px !important;
+    right: 15px !important;
+}
+.plusone::after {
+    position: absolute !important;
+    top: 17px !important;
+    right: 10px !important;
+}
+
+}
+.dot {
+    opacity: 0.4;
+}
+.Postal {
+    height: 40px;
+    border: 1px solid gray;
+}
+.type {
+    font-size: 14px;
+}
+.shiva {
+    object-fit: cover;
+}
+.testing {
+    font-size: 12px;
+}
+.home {
+    font-size: 13px;
+    font-weight: 500;
+}
+.blueline {
+    border-bottom: 1px solid #DFE3E7;
+}
+
+.homedelivery {
+    border: 1px solid #ccc; 
+    transition: border-color 0.3s;
+}
+
+
+input[type="radio"]:checked + div + .homebody {
+    border: 1px solid red; 
+}
+
+
+.homedelivery:has(input[type="radio"]:checked) {
+    border: 1px solid red; 
+}
+.pay {
+    background-color: beige;
+}
+ .hide:focus {    
+    border-color: #DFE3E7 !important;
+    outline: 0;
+    box-shadow: 0 0 0 .0 rgba(13,110,253,.25) !important;
+}
+.postalspace {
+    padding: 6px 0;
+}
+
+.backup {
+    background-color: white !important;
+}
+
+.nufocus:focus-visible {
+    outline: 0 !important;
+}
+
+
+
+

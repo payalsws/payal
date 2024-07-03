@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/check_out.css" />
+        <link rel="stylesheet" href="css/root.css" />
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+        <!-- Swiper Carousel Link -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <!--  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+        <!-- owl  -->
+      
+        <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+      
+        <title>Modal</title>
+      </head>
+      
+<body>    
+    <section>
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-lg-8 col-md-12">
+                  <div>
+                    <div class=""><a href="#" data-bs-toggle="collapse" data-bs-target="#demo" class="fs-5 text-decoration-none text-success px-3 d-flex justify-content-between align-items-center Shippinghead">
+                        <div class=" d-flex gap-2 align-items-center"><i class="fa-solid fa-circle-check"></i>
+                        <h6 class="mb-0 Shipping ">Shipping Info</h6>
+                    </div>
+                        <span class=""><i class="fa-solid fa-chevron-down text-muted down"></i></span>
+                    </a>
+                
+                </div>
+                    <div id="demo" class="collapse Shippingitems border-top-0 p-4">
+                        <form>
+                            <div class="">
+                            <label for="option1" class="card d-flex flex-row align-items-top rounded-0">
+                                <div class="pt-3 ps-3"><input type="radio" class="red" id="option1" name="beautyOption" value="option1"></div>
+                                <div class="card-body d-sm-flex align-items-top justify-content-between ">
+                                   <table>
+                                    <tr>
+                                        <td class="tdfont" style="width: 150px;color: gray;">Address</td>
+                                        <td class="tdfont" style="width: 100px;">test add</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tdfont" style="width: 150px;color: gray;" class="space1">Postal code</td>
+                                        <td class="tdfont" style="width: 100px;">454545</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tdfont" style="width: 150px;color: gray;">City</td>
+                                        <td class="tdfont" style="width: 100px;">Dewas</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tdfont" style="width: 150px;color: gray;">State</td>
+                                        <td class="tdfont" style="width: 200px;">Madhya Pradesh</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tdfont" style="width: 150px;color: gray;">Country</td>
+                                        <td class="tdfont" style="width: 100px;">India</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tdfont" style="width: 150px;color: gray;">Phone</td>
+                                        <td class="tdfont" style="width: 100px;">+914887465484784</td>
+                                    </tr>
+                                   
+                                   </table>
+                                   <div class="me-sm-3 pt-sm-0 pt-3">
+                                    <button type="button" class="btn btn-primary rounded-0 px-3 py-2 Change fw-bold" data-bs-toggle="modal" data-bs-target="#myModal">
+                                        Change
+                                      </button>
+                                   </div>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="pt-4">
+                            <div class="">
+                                <label for="option2" class="card d-flex flex-row align-items-top rounded-0">
+                                    <div class="pt-3 ps-3"><input type="radio" class="red" id="option2" name="beautyOption" value="option1"></div>
+                                    <div class="card-body d-sm-flex align-items-top justify-content-between ">
+                                       <table>
+                                        <tr>
+                                            <td class="tdfont" style="width: 150px;color: gray;">Address</td>
+                                            <td style="width: 100px;" class="space tdfont">test add</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="tdfont" style="width: 150px;color: gray;" class="space1">Postal code</td>
+                                            <td style="width: 100px;" class="space tdfont">454545</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="tdfont" style="width: 150px;color: gray;">City</td>
+                                            <td style="width: 100px;" class="space tdfont">Dewas</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="tdfont" style="width: 150px;color: gray;">State</td>
+                                            <td style="width: 200px;" class="space tdfont">Madhya Pradesh</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="tdfont" style="width: 150px;color: gray;">Country</td>
+                                            <td style="width: 100px;" class="space tdfont">India</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="tdfont" style="width: 150px;color: gray;">Phone</td>
+                                            <td style="width: 100px;" class="space tdfont">+914887465484784</td>
+                                        </tr>
+                                       
+                                       </table>
+                                       <div class="me-sm-3 pt-sm-0 pt-3">
+                                        <button type="button" class="btn btn-primary rounded-0 px-3 py-2 Change fw-bold" data-bs-toggle="modal" data-bs-target="#myModal">
+                                            Change
+                                          </button>
+                                       </div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="w-100 new mt-4 text-center">
+                            <div><a href="#"><i class="fa-solid fa-plus text-muted dot"></i></a></div>
+                            <h6>Add New Address</h6>
+                        </div>
+                        </form>
+                    </div>
+                  </div>
+
+                  <div class="mt-4">
+                    <div class=""><a href="#" data-bs-toggle="collapse" data-bs-target="#demo1" class="fs-5 text-decoration-none text-success d-flex px-3 align-items-center  justify-content-between Shippinghead">
+                        <div class="d-flex gap-2 align-items-center"><i class="fa-solid fa-circle-check"></i>
+                        <h6 class="mb-0 Shipping ">Delivery Info</h6>
+                    </div>
+                    <span class=""><i class="fa-solid fa-chevron-down text-muted down"></i></span>
+                    </a>
+                    
+                </div>
+                    <div id="demo1" class="collapse Shippingitems border-top-0 p-4">
+                        <div class="w-100 new ">                           
+                            <h6 class="mb-0 ps-2">Utma Inhouse Products(01)</h6>
+                        </div>
+                        <form class="blueline pb-4">
+                            <div class="row">
+                            <div class="col-md-6">
+                               <div class="d-flex gap-3 mt-3">
+                                <div><img src="./images/HD-wallpaper-shiva-meditation-god-spiritual.jfif" alt="" width="45px" height="45px" class="shiva"></div>
+                                <div>
+                                    <p class="testing mb-0 pt-1">testing</p>
+                                    <p class="testing text-muted pt-1 opacity-75">Variation CornflowerBlue</p>
+                                </div>
+                               </div>
+                        </div>
+                            <div class="col-md-4">
+                                <h6 class="type mb-0 mt-3">Choose Delivery Type</h6>
+                                <label for="option4" class="card d-flex flex-row align-items-top rounded-0 homedelivery">
+                                    <div class="ps-3 py-2">
+                                        <input type="radio" class="red" id="option4" name="beautyOption" value="option2">
+                                    </div>
+                                    <div class="card-body d-sm-flex align-items-top justify-content-between py-2 homebody">
+                                        <p class="mb-0 home">Home Delivery</p>
+                                    </div>
+                                </label>
+                        </div>
+                    </div>
+                        </form>
+                    </div>
+                  </div>
+
+                  <div class="my-4 pb-lg-5">
+                    <div class=""><a href="#" data-bs-toggle="collapse" data-bs-target="#demo2" class="fs-5 text-decoration-none text-success d-flex justify-content-between px-3 align-items-center Shippinghead">
+                        <div class=" d-flex gap-2 align-items-center"><i class="fa-solid fa-circle-check"></i>
+                        <h6 class="mb-0 Shipping ">Payment</h6></div>
+                        <span class=""><i class="fa-solid fa-chevron-down text-muted down"></i></span>
+                    </a>
+                    
+                </div>
+                    <div id="demo2" class="collapse Shippingitems border-top-0 p-4">
+                        <h6 class="type mb-0 mt-3">Any additional info?</h6>
+                        <div class="mb-3">                            
+                            <textarea class="form-control rounded-0 hide" rows="5" id="comment" name="text" placeholder="Type your text..."></textarea>
+                        </div>
+                        <h6  class="type mb-0 mt-3">Select a payment option</h6>
+                        <form class="blueline pb-4">
+                            <div class="d-sm-flex gap-3">
+
+                                <div class=" mb-3 mb-sm-0">
+                                   
+                                    <label for="option5" class="card d-flex flex-row align-items-top rounded-0 align-items-center homedelivery">
+                                        <div class="">
+                                            <input type="radio" class="red d-none" id="option5" name="beautyOption" value="option2">
+                                        </div>
+                                        <div class="card-body d-sm-flex align-items-top justify-content-between py-2 homebody">
+                                            <p class="mb-0 home text-muted opacity-75">Home Delivery</p>
+                                        </div>
+                                        <div><img src="./images/card.jfif" alt="" class="shiva m-3 rounded-1" width="70" height="40"></div>
+                                    </label>
+                            </div>
+                           
+                            <div class="">
+                                
+                                <label for="option6" class="card d-flex flex-row align-items-top rounded-0 align-items-center homedelivery">
+                                    <div class="">
+                                        <input type="radio" class="red d-none" id="option6" name="beautyOption" value="option2">
+                                    </div>
+                                    <div class="card-body d-sm-flex align-items-top justify-content-between py-2 homebody">
+                                        <p class="mb-0 home text-muted opacity-75">Case On Delivery</p>
+                                    </div>
+                                    <div><img src="./images/card1.webp" alt="" class="shiva m-3 rounded-1" width="70" height="40"></div>
+                                </label>
+                        </div>
+                    </div>
+                        </form>
+                        <div class="text-center type pay pb-1">
+                            <div class="py-3 text-muted">Or,your wallet balance :<span class="fw-bold text-black opacity-75">Rs2,946.00</span></div>
+                            <div class="pb-4 pt-2"><a href="#" class="text-decoration-none text-white fw-bold Change px-4 py-2 type">Pay with wallet</a></div>
+                        </div>
+                        <div class="form-check my-4">
+                            <input type="checkbox" class="form-check-input hide" id="check2" name="option2" value="something">
+                            <label class="form-check-label type" for="check2">I agree to the <a href="#" class="text-decoration-none">term and conditions</a><a href="#" class="text-decoration-none">,return policy</a>  & <a href="#" class="text-decoration-none">privacy policy</a></label>
+                          </div>
+
+                          <div class="d-sm-flex justify-content-between">
+                            <div><a href="#" class="text-white text-decoration-none Change py-2 px-3 type fw-bold">Return to shop</a></div>
+                            <div class=" mt-3 mt-sm-0"><a href="#" class="text-white text-decoration-none Change py-2 px-3 fw-bold type">Complete Order</a></div>
+                          </div>
+                    </div>
+                  </div>
+
+                  <!-- The Modal -->
+                  <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                  
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                          <h4 class="modal-title fs-5">New Address</h4>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                  
+                        <!-- Modal body -->
+                        <div class="modal-body p-sm-5">
+                            <table class="w-100">
+                                <tr>
+                                    <td class="tdfont" style="width: 18%;vertical-align: baseline;">Address</td>
+                                    <td class="tdfont" style=""><textarea name="" id="" class="w-100 ps-3 mb-2 nufocus texthight" placeholder="Your Address"></textarea></td>
+                                </tr>
+                                                             
+                                    <td class="tdfont" style="width: 18%;vertical-align: baseline;"> <label for="sel1" class="form-label">Country</label></td>
+                                    <td class="tdfont drops" style=""> 
+                                        <div class="dropdown mb-3">
+                                            <div class="text-decoration-none text-muted  country dropdown-toggle" data-bs-toggle="dropdown">
+                                              Select Your Country
+                                            </div>
+                                           
+                                            <ul class="dropdown-menu w-100 backup">
+                                              <li><a class="dropdown-item" href="#">India</a></li>
+                                              <li><a class="dropdown-item" href="#">China</a></li>
+                                              <li><a class="dropdown-item" href="#">America</a></li>
+                                            </ul>
+                                          </div></td>
+                                </tr>
+                                <tr>
+                                    <td class="tdfont" style="width: 18%;vertical-align: baseline;"> <label for="sel1" class="form-label">State</label></td>
+                                    <td class="tdfont drops" style=""> 
+                                        <div class="dropdown mb-3">
+                                            <div class="text-decoration-none text-muted  country dropdown-toggle" data-bs-toggle="dropdown">
+                                                Nothing Selected
+                                            </div>
+                                           
+                                            <ul class="dropdown-menu w-100 backup">
+                                              <li><a class="dropdown-item" href="#">Madhya Pradesh</a></li>
+                                              <li><a class="dropdown-item" href="#">Maharastra</a></li>
+                                              <li><a class="dropdown-item" href="#">Uttar Pradesh</a></li>
+                                            </ul>
+                                          </div></td>
+                                </tr>
+                                <tr>
+                                    <td class="tdfont" style="width: 18%;vertical-align: baseline;"> <label for="sel1" class="form-label">City</label></td>
+                                    <td class="tdfont drops" style=""> 
+                                        <div class="dropdown mb-3">
+                                            <div class="text-decoration-none text-muted  country dropdown-toggle" data-bs-toggle="dropdown">
+                                              Nothing Selected
+                                            </div>
+                                           
+                                            <ul class="dropdown-menu w-100 backup">
+                                              <li><a class="dropdown-item" href="#">Dewas</a></li>
+                                              <li><a class="dropdown-item" href="#">Indore</a></li>
+                                              <li><a class="dropdown-item" href="#">Bhopal</a></li>
+                                            </ul>
+                                          </div></td>
+                                </tr>
+                                <tr>
+                                    <td class="tdfont" style="width: 18%;vertical-align: baseline;">Postal Code</td>
+                                    <td class="tdfont drops" style=""><input type="text" placeholder="Your Postal Code" class="w-100  mb-3 ps-3 postalspace nufocus"></td>
+                                </tr>
+                                
+                               </table>
+                               <table class="w-100">
+                                <tr >
+                                    <td class="tdfont" style="width: 18%;vertical-align: baseline;">Phone</td>
+                                    
+                                    <td class="tdfont" style=""> 
+                                        <div class="dropdown mb-3">
+                                            <div class="text-decoration-none text-muted  country " data-bs-toggle="dropdown">
+                                              +54<span class="dropdown-toggle plusone"></span>
+                                            </div>
+                                           
+                                            <ul class="dropdown-menu w-100 backup">
+                                              <li><a class="dropdown-item" href="#">+91</a></li>
+                                              <li><a class="dropdown-item" href="#">+54</a></li>
+                                              <li><a class="dropdown-item" href="#">+71</a></li>
+                                            </ul>
+                                          </div></td>                                          
+                                             <td class="tdfont" style=""><input type="text" placeholder="9112345-6789" class="w-100 ps-3  mb-3 Postal border-start-0 nufocus"></td>
+                                    </div>
+
+                                </tr>
+                               
+                               </table>
+                               <div class="text-end pt-2">
+                                <button type="button" class=" rounded-0 px-5 py-2 Change text-white" data-bs-dismiss="modal">Save</button>
+                              </div>
+                        </div>
+                  
+                        
+                       
+                  
+                      </div>
+                    </div>
+                  </div>
+                  <!-- The Modal -->
+                  
+                </div>
+
+
+                <div class="col-lg-4 col-md-12 mt-lg-0 mt-4">
+                    <div class="Shippingitems p-4 mb-5">
+                        <h5 class="pb-2 ">Cart Totals</h5>
+
+                        <table border="" cellspacing="1" cellspadding="1" class="w-100">
+                          <tr>
+                            <td style="border: 1px solid #ebefea; width: 200px;" class="py-2 ps-2 tdfont">Subtotal (01 Products)</td>
+                            <td  style="border: 1px solid #ebefea; width: 110px;color: #0046be;" class="ps-2 fw-bold tdfont tdfont">Rs977.00</td>
+                          </tr>
+                          <tr>
+                            <td style="border: 1px solid #ebefea; width: 200px;" class="py-2 ps-2 tdfont">Tax</td>
+                            <td style="border: 1px solid #ebefea; width: 110px;" class="ps-2  tdfont">Rs0.00</td>
+                          </tr>
+                          <tr>
+                            <td style="border: 1px solid #ebefea; width: 200px;" class="py-2 ps-2 tdfont">Total Shipping</td>
+                            <td  style="border: 1px solid #ebefea; width: 110px;" class="ps-2 tdfont ">Rs0.00</td>
+                          </tr>
+                          <tr>
+                            <td style="border: 1px solid #ebefea; width: 200px;" class="py-2 ps-2 tdfont">Total</td>
+                            <td style="border: 1px solid #ebefea; width: 110px;color: #0046be;" class="ps-2 fw-bolder tdfont">Rs977.00</td>
+                          </tr>
+                        </table>
+                    </div>
+                   
+                </div>
+            </div>
+        
+    </div>
+    </section>
+    
+</body>
+</html>

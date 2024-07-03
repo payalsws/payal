@@ -1,0 +1,11 @@
+
+
+
+@media only screen and (max-width: 1200px) {
+    table.produ_table {
+        width: 1100px;
+    }
+    .container {
+        max-width: 880px;
+    }
+}

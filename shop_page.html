@@ -1,0 +1,1442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Sidebar Plugin Example</title>
+  <meta charset="utf-8">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/shop.css">
+  <link rel="stylesheet" href="css/shop_responsive.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./css/root.css">
+  <!-- Bootstrap Sidebar CSS -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sidebar/2.0.2/css/bootstrap-sidebar.min.css">
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- font font-family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <!-- font end  font-family -->
+  </script>
+
+  <script src="https://kit.fontawesome.com/fd34e350c0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  
+  <section>
+    <div class="container-lg">
+      <div id="wrapper" class="wrapper1">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+
+          <form action="" class="side-form">
+            <h4 class="widget-title mb-3">Product Categories</h4>
+            <div class="widget-body">
+              <div class="widget-checkbox-list point">
+                <ul class="list-unstyled">
+                  <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                      name="clothes" id="clothes">
+                    <div class="d-flex justify-content-between  w-100">
+                      <div><label class="menone form-check-label" for="clothes"> Men</label> </div>
+                      <div><i class="fa-solid fa-plus add" data-bs-toggle="collapse" data-bs-target="#demo"></i><i
+                          class="fa-solid fa-minus sub" id="sub" data-bs-toggle="collapse" data-bs-target="#demo"></i>
+                      </div>
+                    </div>
+                  </li>
+                  <div id="demo" class="collapse ps-4 ms-2">
+
+                    <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                        name="clothes" id="Pants">
+                      <label class="menone form-check-label" for="Pants"> Pants</label>
+                    </li>
+                    <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                        name="clothes" id="Shirts">
+                      <label class="menone form-check-label" for="Shirts"> Shirts</label>
+                    </li>
+                    <li class="d-flex align-items-center gap-3  mb-2"><input type="checkbox"
+                        class="men form-check-input" name="clothes" id="Shorts">
+                      <label class="menone form-check-label" for="Shorts"> Shorts</label>
+                    </li>
+                    <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                        name="clothes" id="Sweatshirts">
+                      <label class="menone form-check-label" for="Sweatshirts"> Sweatshirts & Hoodies</label>
+                    </li>
+                    <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                        name="clothes" id="Swimwear">
+                      <label class="menone form-check-label" for="Swimwear">Swimwear</label>
+                    </li>
+                    <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                        name="clothes" id=" T-shirts">
+                      <label class="menone form-check-label" for=" T-shirts"> T-shirts</label>
+                    </li>
+                    <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                        name="clothes" id="Jackets">
+                      <label class="menone form-check-label" for="Jackets"> Jackets & coats</label>
+                    </li>
+                  </div>
+
+                  <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                      name="clothes" id="Women">
+                    <div class="d-flex justify-content-between  w-100">
+                      <div><label class="menone form-check-label" for="Women"> Women</label> </div>
+                      <div><i class="fa-solid fa-plus add1" data-bs-toggle="collapse" data-bs-target="#demo1"></i><i
+                          class="fa-solid fa-minus sub1" id="sub1" data-bs-toggle="collapse" data-bs-target="#demo1"></i></div>
+                    </div>
+                  </li>
+
+                  <div id="demo1" class="collapse ps-4 ms-2">
+                    <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                        name="clothes" id="Blazers">
+                      <label class="menone form-check-label" for="Blazers"> Blazers</label>
+                    </li>
+                    <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                        name="clothes" id="Blouses & shirts">
+                      <label class="menone form-check-label" for="Blouses & shirts"> Blouses & shirts</label>
+                    </li>
+                    <li class="d-flex align-items-center gap-3  mb-2"><input type="checkbox"
+                        class="men form-check-input" name="clothes" id="Dresses">
+                      <label class="menone form-check-label" for="Dresses"> Dresses</label>
+                    </li>
+                    <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                        name="clothes" id="Jackets & coats">
+                      <label class="menone form-check-label" for="Jackets & coats">Jackets & coats</label>
+                    </li>
+                    <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                        name="clothes" id="Jeans">
+                      <label class="menone form-check-label" for="Jeans">Jeans</label>
+                    </li>
+                    <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                        name="clothes" id="Knits">
+                      <label class="menone form-check-label" for="Knits"> Knit</label>
+                    </li>
+                    <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                        name="clothes" id="Pantss">
+                      <label class="menone form-check-label" for="Pantss">Pants</label>
+                    </li>
+                    <li class="d-flex align-items-center gap-3  mb-2"><input type="checkbox"
+                        class="men form-check-input" name="clothes" id="Skirts">
+                      <label class="menone form-check-label" for="Skirts"> Skirts</label>
+                    </li>
+                    <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                        name="clothes" id="Suits">
+                      <label class="menone form-check-label" for="Suits">Suits</label>
+                    </li>
+                    <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                        name="clothes" id="Sweatshirts & Hoodies">
+                      <label class="menone form-check-label" for="Sweatshirts & Hoodies">Sweatshirts &
+                        Hoodies</label>
+                    </li>
+                    <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                        name="clothes" id="T-shirts">
+                      <label class="menone form-check-label" for="T-shirts"> T-shirts</label>
+                    </li>
+                    <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                        name="clothes" id="Tops">
+                      <label class="menone form-check-label" for="Tops">Tops & Bodysuits</label>
+                    </li>
+                  </div>
+
+                  <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                      name="clothes" id="Bags">
+                    <label class="menone form-check-label" for="Bags"> Bags</label>
+                  </li>
+                  <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                      name="clothes" id="Belts">
+                    <label class="menone form-check-label" for="Belts"> Belts</label>
+                  </li>
+                  <li class="d-flex align-items-center gap-3  mb-2"><input type="checkbox" class="men form-check-input"
+                      name="clothes" id="Shoes">
+                    <label class="menone form-check-label" for="Shoes"> Shoes</label>
+                  </li>
+                  <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                      name="clothes" id="Outerwear">
+                    <label class="menone form-check-label" for="Outerwear"> Outerwear</label>
+                  </li>
+                  <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                      name="clothes" id="Cargo_Trousers">
+                    <label class="menone form-check-label" for="Cargo_Trousers"> Cargo Trousers</label>
+                  </li>
+                  <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                      name="clothes" id="Accessories">
+                    <label class="menone form-check-label" for="Accessories"> Accessories</label>
+                  </li>
+                  <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                      name="clothes" id="Baby">
+                    <label class="menone form-check-label" for="Baby"> Baby</label>
+                  </li>
+                  <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                      name="clothes" id="Kids">
+                    <label class="menone form-check-label" for="Kids"> Kids</label>
+                  </li>
+                  <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                      name="clothes" id="Wallets">
+                    <label class="menone form-check-label" for="Wallets"> Wallets</label>
+                  </li>
+                  <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                      name="clothes" id="Watches">
+                    <label class="menone form-check-label" for="Watches"> Watches</label>
+                  </li>
+
+                </ul>
+
+              </div>
+
+
+              <div class="filter-container mb-3 mt-5">
+                <h4 class="widget-title mb-3">Filter by price</h4>
+                <div class="price-display">
+                  <span class="price pe-1">Price:</span><span class="min-price price">$0</span> — <span
+                    class="max-price price">$1,300</span>
+                  <span class="Filter me-4"><a href="#" class="text-decoration-none">Filter</a></span>
+                </div>
+                <div class="slider-container">
+                  <div class="range-input">
+                    <input type="range" id="range-min" class="min-range" min="0" max="1300" value="0" step="10">
+                    <input type="range" id="range-max" class="max-range" min="0" max="1300" value="1300" step="10">
+                  </div>
+                  <div class="slider-track"></div>
+                </div>
+              </div>
+
+              <div class="pt-4">
+                <h4 class="widget-title mb-3">Filter by Color</h4>
+                <ul class="ps-0">
+                  <li class="d-flex align-items-center gap-2 mb-2 Sweet"><input type="checkbox"
+                      class="round forcolor form-check-input" name="clothes" id="Apple">
+                    <div class="d-flex justify-content-between  w-100">
+                      <div><label class="menone form-check-label" for="Apple"> Apple Red</label> </div><span
+                        class="count">(4)</span>
+                    </div>
+                  </li>
+                  <li class="d-flex align-items-center gap-2 mb-2 Sweet1"><input type="checkbox"
+                      class="round forcolor1 form-check-input" name="clothes" id="Bio">
+                    <div class="d-flex justify-content-between  w-100">
+                      <div><label class="menone form-check-label" for="Bio">Bio Blue</label> </div><span
+                        class="count">(4)</span>
+                    </div>
+                  </li>
+                  <li class="d-flex align-items-center gap-2 mb-2 Sweet2"><input type="checkbox"
+                      class="round forcolor2 form-check-input" name="clothes" id="Sweet">
+                    <div class="d-flex justify-content-between  w-100">
+                      <div><label class="menone form-check-label" for="Sweet"> Sweet Orange</label> </div><span
+                        class="count">(2)</span>
+                    </div>
+                  </li>
+                  <li class="d-flex align-items-center gap-2 mb-2 Sweet3"><input type="checkbox"
+                      class="round forcolor3 form-check-input" name="clothes" id="Blue">
+                    <div class="d-flex justify-content-between  w-100">
+                      <div><label class="menone form-check-label" for="Blue">Blue</label> </div><span
+                        class="count">(2)</span>
+                    </div>
+                  </li>
+                  <li class="d-flex align-items-center gap-2 mb-2 Sweet4"><input type="checkbox"
+                      class="round forcolor4 form-check-input" name="clothes" id="Green">
+                    <div class="d-flex justify-content-between  w-100">
+                      <div><label class="menone form-check-label" for="Green">Green</label> </div><span
+                        class="count">(2)</span>
+                    </div>
+                  </li>
+                  <li class="d-flex align-items-center gap-2 mb-2 Sweet5"><input type="checkbox"
+                      class="round forcolor5 form-check-input" name="clothes" id="Pink">
+                    <div class="d-flex justify-content-between  w-100">
+                      <div><label class="menone form-check-label" for="Pink">Pink</label> </div><span
+                        class="count">(3)</span>
+                    </div>
+                  </li>
+                  <li class="d-flex align-items-center gap-2 mb-2 Sweet6"><input type="checkbox"
+                      class="round forcolor6 form-check-input" name="clothes" id="Red">
+                    <div class="d-flex justify-content-between  w-100">
+                      <div><label class="menone form-check-label" for="Red">Red</label> </div><span
+                        class="count">(2)</span>
+                    </div>
+                  </li>
+                  <li class="d-flex align-items-center gap-2 mb-2 Sweet7"><input type="checkbox"
+                      class="round forcolor7 form-check-input" name="clothes" id="Black">
+                    <div class="d-flex justify-content-between  w-100">
+                      <div><label class="menone form-check-label" for="Black">Black</label> </div><span
+                        class="count">(3)</span>
+                    </div>
+                  </li>
+                  <li class="d-flex align-items-center gap-2 mb-2 Sweet8"><input type="checkbox"
+                      class="round forcolor8 form-check-input" name="clothes" id="White">
+                    <div class="d-flex justify-content-between  w-100">
+                      <div><label class="menone form-check-label" for="White">White</label> </div><span
+                        class="count">(2)</span>
+                    </div>
+                  </li>
+                  <li class="d-flex align-items-center gap-2 mb-2 Sweet9"><input type="checkbox"
+                      class="round forcolor9 form-check-input" name="clothes" id="Yellow">
+                    <div class="d-flex justify-content-between  w-100">
+                      <div><label class="menone form-check-label" for="Yellow">Yellow</label> </div><span
+                        class="count">(1)</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="">
+                <h4 class="widget-title mb-3">Filter by Size</h4>
+                <ul class="ps-0 point">
+                  <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                      name="clothes" id="XXS">
+                    <div class="d-flex justify-content-between  w-100">
+                      <div><label class="menone form-check-label" for="XXS"> XXS</label> </div><span
+                        class="count">(7)</span>
+                    </div>
+                  </li>
+                  <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                      name="clothes" id="XS">
+                    <div class="d-flex justify-content-between  w-100">
+                      <div><label class="menone form-check-label" for="XS"> XS</label> </div><span
+                        class="count">(8)</span>
+                    </div>
+                  </li>
+                  <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                      name="clothes" id="S">
+                    <div class="d-flex justify-content-between  w-100">
+                      <div><label class="menone form-check-label" for="S"> S</label> </div><span
+                        class="count">(8)</span>
+                    </div>
+                  </li>
+                  <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                      name="clothes" id="M">
+                    <div class="d-flex justify-content-between  w-100">
+                      <div><label class="menone form-check-label" for="M">M</label> </div><span class="count">(8)</span>
+                    </div>
+                  </li>
+                  <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                      name="clothes" id="L">
+                    <div class="d-flex justify-content-between  w-100">
+                      <div><label class="menone form-check-label" for="L"> L</label> </div><span
+                        class="count">(8)</span>
+                    </div>
+                  </li>
+                  <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                      name="clothes" id="XL">
+                    <div class="d-flex justify-content-between  w-100">
+                      <div><label class="menone form-check-label" for="XL"> XL</label> </div><span
+                        class="count">(7)</span>
+                    </div>
+                  </li>
+                  <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                      name="clothes" id="XXL">
+                    <div class="d-flex justify-content-between  w-100">
+                      <div><label class="menone form-check-label" for="XXL"> XXL</label> </div><span
+                        class="count">(5)</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="">
+                <h4 class="widget-title mb-3">Product Status</h4>
+                <ul class="ps-0 point">
+                  <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                      name="clothes" id="Stock">
+                    <label class="menone form-check-label" for="Stock"> In Stock</label>
+                  </li>
+                  <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                      name="clothes" id="Sale">
+                    <label class="menone form-check-label" for="Sale"> On Sale</label>
+                  </li>
+                </ul>
+              </div>
+
+
+          </form>
+        </div>
+      </div>
+      <!-- /#sidebar-wrapper -->
+
+      <!-- Page Content -->
+      <div id="page-content-wrapper" class="page-wrapper">
+        <div class="container-fluid">
+          <div class="row ">
+            <div class="col-lg-12 px-lg-3 px-0">
+              <a href="" class="">
+                <div class="card text-bg-dark border-0 rounded-0 ">
+                  <img src="images/banner.jpg" class="card-img shop-banner-img img-fluid object-fit-cover object-position-center rounded-0" style="min-height: 300px;"  alt="...">
+                  <div class="card-img-overlay ps-lg-5 ps-4 pt-5 pluse_title">
+                    <h5 class="card-title shop-cr-title pt-md-0 pt-4">Plus-Size Styles for</br> Every Season</h5>
+                    <p class="card-text">Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas</p>
+                  </div>
+                </div>
+              </a>
+              <!-- ---------------------------1111111111111------------------ -->
+              <!-- <div class=" before_shop d-flex align-items-center justify-content-between mt-3">
+                <div class="d-xl-flex d-none">
+                  <ul class="list-group list-group-horizontal align-items-center">
+                    <li class="list-group "> <a href="#" class="nav-link"><img src="images/menu.png" class="img-fluid"
+                          width="15"></a></li>
+                    <li class="list-group ms-3"> <a href="#" class="nav-link"><i class="fa-solid fa-bars"
+                          style="font-size: 12px;"></i></a></li>
+                    <li class="list-group ms-4 show_text"> Showing all 5 results</li>
+                  </ul>
+                </div>
+
+
+                <div class="before_seclt">
+                  <form>
+
+                    <div class="d-flex align-items-center">
+                      <a href="#menu-toggle" class="btn btn-default d-xl-none d-block " id="menu-toggle"> <svg
+                          xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+                          fill="currentColor">
+                          <path d="M0 0h24v24H0V0z" fill="none"></path>
+                          <path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"></path>
+                        </svg>
+                        Filter
+                      </a>
+                      <span class="d-xl-flex d-none">Show:</span>
+                      <select class="form-select border-0  rounded-0 one d-xl-flex d-none">
+                        <option value="16">16 Items</option>
+                        <option value="32">32 Items</option>
+                        <option value="48">48 Items</option>
+                        <option value="64">64 Items</option>
+                      </select>
+
+                      <select class="form-select border-0">
+                        <option value="16">Sort by popularity</option>
+                        <option value="32">Sort by average rating</option>
+                        <option value="48">Sort by latest</option>
+                        <option value="64">Sort by price: low to high</option>
+                        <option value="64">Sort by price: high to low</option>
+                      </select>
+
+                    </div>
+                  </form>
+                </div>
+
+              </div> -->
+
+              <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <div class="shop-off-btn ">
+                    <button
+                      class="navbar-toggler border-0 shadow-none ps-0"
+                      type="button"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvasNavbar"
+                      aria-controls="offcanvasNavbar"
+                      aria-label="Toggle navigation"
+                    >
+                      <a
+                        href="#"
+                        class="btn btn-default d-xl-none border-0 shadow-none d-block"
+                        id="menu-toggle"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="24px"
+                          viewBox="0 0 24 24"
+                          width="24px"
+                          fill="currentColor"
+                        >
+                          <path d="M0 0h24v24H0V0z" fill="none"></path>
+                          <path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"></path>
+                        </svg>
+                        Filter
+                      </a>
+                    </button>
+                    <span class="shop-off-select">
+                      <select class="shop-form-select border-0 bg-transparent">
+                        <option value="16">Sort by popularity</option>
+                        <option value="32">Sort by average rating</option>
+                        <option value="48">Sort by latest</option>
+                        <option value="64">Sort by price: low to high</option>
+                        <option value="64">Sort by price: high to low</option>
+                      </select>
+                    </span>
+                  </div>
+                  <div class="off-shop-nav w-100">
+                     <div
+                        class="before_shop w-100  d-flex align-items-center justify-content-between mt-3"
+                      >
+                        <div class="d-xl-flex align-items-center">
+                          <ul class="list-group list-group-horizontal align-items-center">
+                            <li class="list-group">
+                              <a href="#" class="nav-link shopdot"
+                                ><img src="images/menu.png" class="img-fluid" width="15"
+                              /></a>
+                            </li>
+                            <li class="list-group ms-3">
+                              <a href="#" class="nav-link threedot" id="toggle-icon"
+                                ><i class="fa-solid fa-bars" style="font-size: 12px"></i
+                              ></a>
+                            </li>
+                            <li class="list-group ms-4 show_text">
+                              Showing all 5 results
+                            </li>
+                          </ul>
+                        </div>
+          
+                        <div class="before_seclt">
+                          <form class="second-shop-form">
+                            <div class="d-flex align-items-center">
+                              <span class="d-xl-flex d-none shop-span">Show:</span>
+                              <select
+                                class="form-select shop-s1 border-0 rounded-0 one d-xl-flex bg-transparent d-none"
+                              >
+                                <option value="16">16 Items</option>
+                                <option value="32">32 Items</option>
+                                <option value="48">48 Items</option>
+                                <option value="64">64 Items</option>
+                              </select>
+          
+                              <select class="form-select shop-s2 border-0 bg-transparent">
+                                <option value="16">Sort by Latest</option>
+                                <option value="32">Sort by average rating</option>
+                                <option value="48">Sort by latest</option>
+                                <option value="64">Sort by price: low to high</option>
+                                <option value="64">Sort by price: high to low</option>
+                              </select>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                  </div>
+                  <div
+                    class="offcanvas offcanvas-start shop-off-start w-75 px-3"
+                    tabindex="-1"
+                    id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel"
+                  >
+                    <div class="offcanvas-header shop-off-head p-2">
+                     <div class="shop-off-header w-100 d-flex align-items-center justify-content-between ">
+                      <h5 class="offcanvas-title py-3" id="offcanvasNavbarLabel">Filter Products</h5>
+                      <button
+                        type="button"
+                        class="btn-close py-3 border-0 shadow-none"
+                        data-bs-dismiss="offcanvas"
+                        aria-label="Close"
+                      ></button>
+                     </div>
+                     <hr class="shop-border">
+                    </hr>
+                    <div class="offcanvas-body shop-off-body w-100">
+                      <form action="" class="side-form2 w-100">
+                        <h4 class="widget-title mb-3">Product Categories</h4>
+                        <div class="widget-body">
+                          <div class="widget-checkbox-list point">
+                            <ul class="list-unstyled">
+                              <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                  name="clothes" id="clothes">
+                                <div class="d-flex justify-content-between  w-100">
+                                  <div><label class="menone form-check-label" for="clothes"> Men</label> </div>
+                                  <div><i class="fa-solid fa-plus add" data-bs-toggle="collapse" data-bs-target="#demo"></i><i
+                                      class="fa-solid fa-minus sub" id="sub" data-bs-toggle="collapse" data-bs-target="#demo"></i>
+                                  </div>
+                                </div>
+                              </li>
+                              <div id="demo" class="collapse ps-4 ms-2">
+            
+                                <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                    name="clothes" id="Pants">
+                                  <label class="menone form-check-label" for="Pants"> Pants</label>
+                                </li>
+                                <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                    name="clothes" id="Shirts">
+                                  <label class="menone form-check-label" for="Shirts"> Shirts</label>
+                                </li>
+                                <li class="d-flex align-items-center gap-3  mb-2"><input type="checkbox"
+                                    class="men form-check-input" name="clothes" id="Shorts">
+                                  <label class="menone form-check-label" for="Shorts"> Shorts</label>
+                                </li>
+                                <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                    name="clothes" id="Sweatshirts">
+                                  <label class="menone form-check-label" for="Sweatshirts"> Sweatshirts & Hoodies</label>
+                                </li>
+                                <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                    name="clothes" id="Swimwear">
+                                  <label class="menone form-check-label" for="Swimwear">Swimwear</label>
+                                </li>
+                                <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                    name="clothes" id=" T-shirts">
+                                  <label class="menone form-check-label" for=" T-shirts"> T-shirts</label>
+                                </li>
+                                <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                    name="clothes" id="Jackets">
+                                  <label class="menone form-check-label" for="Jackets"> Jackets & coats</label>
+                                </li>
+                              </div>
+            
+                              <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                  name="clothes" id="Women">
+                                <div class="d-flex justify-content-between  w-100">
+                                  <div><label class="menone form-check-label" for="Women"> Women</label> </div>
+                                  <div><i class="fa-solid fa-plus add1" data-bs-toggle="collapse" data-bs-target="#demo1"></i><i
+                                      class="fa-solid fa-minus sub1" id="sub1" data-bs-toggle="collapse" data-bs-target="#demo1"></i></div>
+                                </div>
+                              </li>
+            
+                              <div id="demo1" class="collapse ps-4 ms-2">
+                                <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                    name="clothes" id="Blazers">
+                                  <label class="menone form-check-label" for="Blazers"> Blazers</label>
+                                </li>
+                                <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                    name="clothes" id="Blouses & shirts">
+                                  <label class="menone form-check-label" for="Blouses & shirts"> Blouses & shirts</label>
+                                </li>
+                                <li class="d-flex align-items-center gap-3  mb-2"><input type="checkbox"
+                                    class="men form-check-input" name="clothes" id="Dresses">
+                                  <label class="menone form-check-label" for="Dresses"> Dresses</label>
+                                </li>
+                                <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                    name="clothes" id="Jackets & coats">
+                                  <label class="menone form-check-label" for="Jackets & coats">Jackets & coats</label>
+                                </li>
+                                <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                    name="clothes" id="Jeans">
+                                  <label class="menone form-check-label" for="Jeans">Jeans</label>
+                                </li>
+                                <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                    name="clothes" id="Knits">
+                                  <label class="menone form-check-label" for="Knits"> Knit</label>
+                                </li>
+                                <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                    name="clothes" id="Pantss">
+                                  <label class="menone form-check-label" for="Pantss">Pants</label>
+                                </li>
+                                <li class="d-flex align-items-center gap-3  mb-2"><input type="checkbox"
+                                    class="men form-check-input" name="clothes" id="Skirts">
+                                  <label class="menone form-check-label" for="Skirts"> Skirts</label>
+                                </li>
+                                <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                    name="clothes" id="Suits">
+                                  <label class="menone form-check-label" for="Suits">Suits</label>
+                                </li>
+                                <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                    name="clothes" id="Sweatshirts & Hoodies">
+                                  <label class="menone form-check-label" for="Sweatshirts & Hoodies">Sweatshirts &
+                                    Hoodies</label>
+                                </li>
+                                <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                    name="clothes" id="T-shirts">
+                                  <label class="menone form-check-label" for="T-shirts"> T-shirts</label>
+                                </li>
+                                <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                    name="clothes" id="Tops">
+                                  <label class="menone form-check-label" for="Tops">Tops & Bodysuits</label>
+                                </li>
+                              </div>
+            
+                              <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                  name="clothes" id="Bags">
+                                <label class="menone form-check-label" for="Bags"> Bags</label>
+                              </li>
+                              <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                  name="clothes" id="Belts">
+                                <label class="menone form-check-label" for="Belts"> Belts</label>
+                              </li>
+                              <li class="d-flex align-items-center gap-3  mb-2"><input type="checkbox" class="men form-check-input"
+                                  name="clothes" id="Shoes">
+                                <label class="menone form-check-label" for="Shoes"> Shoes</label>
+                              </li>
+                              <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                  name="clothes" id="Outerwear">
+                                <label class="menone form-check-label" for="Outerwear"> Outerwear</label>
+                              </li>
+                              <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                  name="clothes" id="Cargo_Trousers">
+                                <label class="menone form-check-label" for="Cargo_Trousers"> Cargo Trousers</label>
+                              </li>
+                              <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                  name="clothes" id="Accessories">
+                                <label class="menone form-check-label" for="Accessories"> Accessories</label>
+                              </li>
+                              <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                  name="clothes" id="Baby">
+                                <label class="menone form-check-label" for="Baby"> Baby</label>
+                              </li>
+                              <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                  name="clothes" id="Kids">
+                                <label class="menone form-check-label" for="Kids"> Kids</label>
+                              </li>
+                              <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                  name="clothes" id="Wallets">
+                                <label class="menone form-check-label" for="Wallets"> Wallets</label>
+                              </li>
+                              <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                  name="clothes" id="Watches">
+                                <label class="menone form-check-label" for="Watches"> Watches</label>
+                              </li>
+            
+                            </ul>
+            
+                          </div>
+            
+            
+                          <div class="filter-container mb-3 mt-5 w-100">
+                            <h4 class="widget-title mb-3">Filter by price</h4>
+                            <div class="price-display">
+                              <span class="price pe-1">Price:</span><span class="min-price price">$0</span> — <span
+                                class="max-price price">$1,300</span>
+                              <span class="Filter me-4"><a href="#" class="text-decoration-none">Filter</a></span>
+                            </div>
+                            <div class="slider-container">
+                              <div class="range-input">
+                                <input type="range" id="range-min" class="min-range" min="0" max="1300" value="0" step="10">
+                                <input type="range" id="range-max" class="max-range" min="0" max="1300" value="1300" step="10">
+                              </div>
+                              <div class="slider-track"></div>
+                            </div>
+                          </div>
+            
+                          <div class="pt-4">
+                            <h4 class="widget-title mb-3">Filter by Color</h4>
+                            <ul class="ps-0">
+                              <li class="d-flex align-items-center gap-2 mb-2 Sweet"><input type="checkbox"
+                                  class="round forcolor form-check-input" name="clothes" id="Apple">
+                                <div class="d-flex justify-content-between  w-100">
+                                  <div><label class="menone form-check-label" for="Apple"> Apple Red</label> </div><span
+                                    class="count">(4)</span>
+                                </div>
+                              </li>
+                              <li class="d-flex align-items-center gap-2 mb-2 Sweet1"><input type="checkbox"
+                                  class="round forcolor1 form-check-input" name="clothes" id="Bio">
+                                <div class="d-flex justify-content-between  w-100">
+                                  <div><label class="menone form-check-label" for="Bio">Bio Blue</label> </div><span
+                                    class="count">(4)</span>
+                                </div>
+                              </li>
+                              <li class="d-flex align-items-center gap-2 mb-2 Sweet2"><input type="checkbox"
+                                  class="round forcolor2 form-check-input" name="clothes" id="Sweet">
+                                <div class="d-flex justify-content-between  w-100">
+                                  <div><label class="menone form-check-label" for="Sweet"> Sweet Orange</label> </div><span
+                                    class="count">(2)</span>
+                                </div>
+                              </li>
+                              <li class="d-flex align-items-center gap-2 mb-2 Sweet3"><input type="checkbox"
+                                  class="round forcolor3 form-check-input" name="clothes" id="Blue">
+                                <div class="d-flex justify-content-between  w-100">
+                                  <div><label class="menone form-check-label" for="Blue">Blue</label> </div><span
+                                    class="count">(2)</span>
+                                </div>
+                              </li>
+                              <li class="d-flex align-items-center gap-2 mb-2 Sweet4"><input type="checkbox"
+                                  class="round forcolor4 form-check-input" name="clothes" id="Green">
+                                <div class="d-flex justify-content-between  w-100">
+                                  <div><label class="menone form-check-label" for="Green">Green</label> </div><span
+                                    class="count">(2)</span>
+                                </div>
+                              </li>
+                              <li class="d-flex align-items-center gap-2 mb-2 Sweet5"><input type="checkbox"
+                                  class="round forcolor5 form-check-input" name="clothes" id="Pink">
+                                <div class="d-flex justify-content-between  w-100">
+                                  <div><label class="menone form-check-label" for="Pink">Pink</label> </div><span
+                                    class="count">(3)</span>
+                                </div>
+                              </li>
+                              <li class="d-flex align-items-center gap-2 mb-2 Sweet6"><input type="checkbox"
+                                  class="round forcolor6 form-check-input" name="clothes" id="Red">
+                                <div class="d-flex justify-content-between  w-100">
+                                  <div><label class="menone form-check-label" for="Red">Red</label> </div><span
+                                    class="count">(2)</span>
+                                </div>
+                              </li>
+                              <li class="d-flex align-items-center gap-2 mb-2 Sweet7"><input type="checkbox"
+                                  class="round forcolor7 form-check-input" name="clothes" id="Black">
+                                <div class="d-flex justify-content-between  w-100">
+                                  <div><label class="menone form-check-label" for="Black">Black</label> </div><span
+                                    class="count">(3)</span>
+                                </div>
+                              </li>
+                              <li class="d-flex align-items-center gap-2 mb-2 Sweet8"><input type="checkbox"
+                                  class="round forcolor8 form-check-input" name="clothes" id="White">
+                                <div class="d-flex justify-content-between  w-100">
+                                  <div><label class="menone form-check-label" for="White">White</label> </div><span
+                                    class="count">(2)</span>
+                                </div>
+                              </li>
+                              <li class="d-flex align-items-center gap-2 mb-2 Sweet9"><input type="checkbox"
+                                  class="round forcolor9 form-check-input" name="clothes" id="Yellow">
+                                <div class="d-flex justify-content-between  w-100">
+                                  <div><label class="menone form-check-label" for="Yellow">Yellow</label> </div><span
+                                    class="count">(1)</span>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+            
+                          <div class="">
+                            <h4 class="widget-title mb-3">Filter by Size</h4>
+                            <ul class="ps-0 point">
+                              <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                  name="clothes" id="XXS">
+                                <div class="d-flex justify-content-between  w-100">
+                                  <div><label class="menone form-check-label" for="XXS"> XXS</label> </div><span
+                                    class="count">(7)</span>
+                                </div>
+                              </li>
+                              <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                  name="clothes" id="XS">
+                                <div class="d-flex justify-content-between  w-100">
+                                  <div><label class="menone form-check-label" for="XS"> XS</label> </div><span
+                                    class="count">(8)</span>
+                                </div>
+                              </li>
+                              <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                  name="clothes" id="S">
+                                <div class="d-flex justify-content-between  w-100">
+                                  <div><label class="menone form-check-label" for="S"> S</label> </div><span
+                                    class="count">(8)</span>
+                                </div>
+                              </li>
+                              <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                  name="clothes" id="M">
+                                <div class="d-flex justify-content-between  w-100">
+                                  <div><label class="menone form-check-label" for="M">M</label> </div><span class="count">(8)</span>
+                                </div>
+                              </li>
+                              <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                  name="clothes" id="L">
+                                <div class="d-flex justify-content-between  w-100">
+                                  <div><label class="menone form-check-label" for="L"> L</label> </div><span
+                                    class="count">(8)</span>
+                                </div>
+                              </li>
+                              <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                  name="clothes" id="XL">
+                                <div class="d-flex justify-content-between  w-100">
+                                  <div><label class="menone form-check-label" for="XL"> XL</label> </div><span
+                                    class="count">(7)</span>
+                                </div>
+                              </li>
+                              <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                  name="clothes" id="XXL">
+                                <div class="d-flex justify-content-between  w-100">
+                                  <div><label class="menone form-check-label" for="XXL"> XXL</label> </div><span
+                                    class="count">(5)</span>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+            
+                          <div class="">
+                            <h4 class="widget-title mb-3">Product Status</h4>
+                            <ul class="ps-0 point">
+                              <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                  name="clothes" id="Stock">
+                                <label class="menone form-check-label" for="Stock"> In Stock</label>
+                              </li>
+                              <li class="d-flex align-items-center gap-3 mb-2"><input type="checkbox" class="men form-check-input"
+                                  name="clothes" id="Sale">
+                                <label class="menone form-check-label" for="Sale"> On Sale</label>
+                              </li>
+                            </ul>
+                          </div>
+            
+            
+                      </form>
+                    </div>
+                    
+                  </div>
+                  
+                </div>
+                
+               </nav>
+
+              <!-- <div class="d-flex shop_icone mt-4">
+                <ul class="list-group list-group-horizontal gap-4">
+                  <li class="list-group"><a href="#" class="nav-link">
+                      <i class="fa-solid fa-xmark icon "></i>
+                      Clear filters</a>
+                  </li>
+                  <li class="list-group">
+                    <a href="#" class="nav-link">
+                      <i class="fa-solid fa-xmark icon"></i>
+                      XS</a>
+                  </li>
+                  <li class="list-group">
+                    <a href="#" class="nav-link">
+                      <i class="fa-solid fa-xmark icon"></i>
+                      Max 1,300.00</a>
+                  </li>
+                  <li class="list-group">
+                    <a href="#" class="nav-link"> <i class="fa-solid fa-xmark icon">
+
+                      </i>Men</a>
+                  </li>
+
+                </ul>
+              </div> -->
+
+              
+              <!-- --------------------------2222222222222222222---------------------- -->
+
+              <!-- <swiper-container class="swiper-container2  py-xl-5" autoplay-delay="2500" autoplay-disable-on-interaction="false"> -->
+              <!-- <swiper-slide class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 4" style="width: 301.5px; margin-right: 30px;" data-swiper-slide-index="0"> -->
+              <div class="mt-4" id="shopbox_A">
+                <div class="row">
+                  <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product-bg">
+                      <div class="product-head d-flex position-relative" style="">
+                        <h5 class="product-box">24%</h5>
+                        <div class="product-box1"></div>
+                        <div class="product-box2"></div>
+                        <div class="product-icons product-box3">
+                          <div class="pr-icon">
+                            <i class="bi bi-heart"></i>
+                            <i class="bi bi-repeat my-2"></i>
+                            <i class="fa-solid fa-maximize resaiz mb-2" style="font-weight: 600;"
+                              aria-hidden="true"></i>
+                            <i class="bi bi-bag"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="pagination d-flex justify-content-between mb-1">
+                        <div class="page-bar"></div>
+                        <div class="page-bar1"></div>
+                        <div class="page-bar2"></div>
+                        <div class="page-bar3"></div>
+                      </div>
+                      <div class="product-detail pt-1 pb-2">
+                        <h6 class="d-flex align-items-center py-1">
+                          <img src="./product-img/star (7).png" alt="" width="13px" height="13px">
+                          &nbsp; 2 reviews
+                        </h6>
+                        <h5>Basics Smartphone</h5>
+                        <p><del>$25.90</del> $19.90</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="swiper-pagination">
+                                  <div class="page-bar">1</div>
+                                </div> -->
+                  <!-- </swiper-slide><swiper-slide class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 4" style="width: 301.5px; margin-right: 30px;" data-swiper-slide-index="1"> -->
+                  <div class="col-lg-3  col-md-4 col-sm-6">
+                    <div class="product-bg">
+                      <div class="product-head1 d-flex justify-content-between position-relative">
+                        <h5 class="product-box">25%</h5>
+                        <div class="product-box1"></div>
+                        <div class="product-box2"></div>
+                        <div class="product-icons product-box3">
+                          <div class="pr-icon">
+                            <i class="bi bi-heart"></i>
+                            <i class="bi bi-repeat my-2"></i>
+                            <i class="fa-solid fa-maximize resaiz mb-2" style="font-weight: 600;"
+                              aria-hidden="true"></i>
+                            <i class="bi bi-bag"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="pagination d-flex justify-content-between mb-1">
+                        <div class="page-bar hovered"></div>
+                        <div class="page-bar1"></div>
+                        <div class="page-bar2"></div>
+                        <div class="page-bar3"></div>
+                      </div>
+                      <div class="product-detail pt-1 pb-2">
+                        <h6 class="d-flex align-items-center py-1">
+                          <img src="./product-img/star (7).png" alt="" width="13px" height="13px">
+                          &nbsp; 1 reviews
+                        </h6>
+                        <h5>Basics Smartphone</h5>
+                        <p>$89.90</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- </swiper-slide><swiper-slide class="swiper-slide" role="group" aria-label="3 / 4" style="width: 301.5px; margin-right: 30px;" data-swiper-slide-index="2"> -->
+                  <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product-bg">
+                      <div class="product-head2 d-flex justify-content-between position-relative">
+                        <h5 class="product-box">17%</h5>
+                        <div class="product-box1"></div>
+                        <div class="product-box2"></div>
+                        <div class="product-icons product-box3">
+                          <div class="pr-icon">
+                            <i class="bi bi-heart"></i>
+                            <i class="bi bi-repeat my-2"></i>
+                            <i class="fa-solid fa-maximize resaiz mb-2" style="font-weight: 600;"
+                              aria-hidden="true"></i>
+                            <i class="bi bi-bag"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="pagination d-flex justify-content-between mb-1">
+                        <div class="page-bar hovered"></div>
+                        <div class="page-bar1"></div>
+                        <div class="page-bar2"></div>
+                        <div class="page-bar3"></div>
+                      </div>
+                      <div class="product-detail pt-1 pb-2">
+                        <h6 class="d-flex align-items-center py-1">
+                          <img src="./product-img/star (7).png" alt="" width="13px" height="13px">
+                          &nbsp; 1 reviews
+                        </h6>
+                        <h5>Basics Smartphone</h5>
+                        <p><del>$29.90</del> $24.90</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- </swiper-slide> -->
+                  <!-- <swiper-slide class="swiper-slide" role="group" aria-label="4 / 4" style="width: 301.5px; margin-right: 30px;" data-swiper-slide-index="3"> -->
+                  <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product-bg">
+                      <div class="product-head3 d-flex justify-content-between position-relative">
+                        <h5 class="product-box">14%</h5>
+                        <div class="product-box1"></div>
+                        <div class="product-box2"></div>
+                        <div class="product-icons product-box3">
+                          <div class="pr-icon">
+                            <i class="bi bi-heart"></i>
+                            <i class="bi bi-repeat my-2"></i>
+                            <i class="fa-solid fa-maximize resaiz mb-2" style="font-weight: 600;"
+                              aria-hidden="true"></i>
+                            <i class="bi bi-bag"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="pagination d-flex justify-content-between mb-1">
+                        <div class="page-bar hovered"></div>
+                        <div class="page-bar1"></div>
+                        <div class="page-bar2"></div>
+                        <div class="page-bar3"></div>
+                      </div>
+                      <div class="product-detail pt-1 pb-2">
+                        <h6 class="d-flex align-items-center py-1">
+                          <img src="./product-img/star (7).png" alt="" width="13px" height="13px">
+                          &nbsp; 1 reviews
+                        </h6>
+                        <h5>Basics Smartphone</h5>
+                        <p><del>$129.90</del> $112.00</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3  col-md-4 col-sm-6">
+                    <div class="product-bg">
+                      <div class="product-head3 d-flex justify-content-between position-relative">
+                        <h5 class="product-box">14%</h5>
+                        <div class="product-box1"></div>
+                        <div class="product-box2"></div>
+                        <div class="product-icons product-box3">
+                          <div class="pr-icon">
+                            <i class="bi bi-heart"></i>
+                            <i class="bi bi-repeat my-2"></i>
+                            <i class="fa-solid fa-maximize resaiz mb-2" style="font-weight: 600;"
+                              aria-hidden="true"></i>
+                            <i class="bi bi-bag"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="pagination d-flex justify-content-between mb-1">
+                        <div class="page-bar hovered"></div>
+                        <div class="page-bar1"></div>
+                        <div class="page-bar2"></div>
+                        <div class="page-bar3"></div>
+                      </div>
+                      <div class="product-detail pt-1 pb-2">
+                        <h6 class="d-flex align-items-center py-1">
+                          <img src="./product-img/star (7).png" alt="" width="13px" height="13px">
+                          &nbsp; 1 reviews
+                        </h6>
+                        <h5>Basics Smartphone</h5>
+                        <p><del>$129.90</del> $112.00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- </swiper-slide> -->
+                </div>
+              </div>
+              <!-- </swiper-container> -->
+              <div class=" w-100" id="blackpants">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="product-bg " >
+                      <div class="product-head5 product-head5-new d-flex position-relative">
+                   
+                    <div class="product-box1"></div>
+                    <div class="product-box2"></div>
+                    <div class="product-icons product-box3">
+                      <div class="pr-icon">
+                        <i class="bi bi-heart"></i>
+                        <i class="bi bi-repeat my-2"></i>
+                        <i class="fa-solid fa-maximize resaiz mb-2" style="font-weight: 600;"></i>
+                        
+                      </div>
+                    </div>
+                      </div>
+                      <div class="pagination d-flex justify-content-between mb-1">
+                    <div class="page-bar hovered"></div>
+                    <div class="page-bar1"></div>
+                    <div class="page-bar2"></div>
+                    <div class="page-bar3"></div>
+                      </div>
+                    </div>
+                  </div>
+    
+                <div class="col-lg-8">
+                  <div class="containt ms-3">
+                    <div class="content-switcher">
+                        <div class="product-swatches">
+                            <div class="product-review"><div class="star"><i class="klbth-icon-star"></i></div>
+                            <img src="./product-img/star (7).png" alt="" width="13px" height="13px" class="me-2">
+                            <span class="views">2 reviews</span></div>
+                            </div>
+                             </div>
+                
+                             <h3 class="product-title"><a href="#" class="text-decoration-none text-black fs-5">Basic Colored Sweatpants With Elastic Hems</a></h3>
+                             <span class="price"><del><span class="woocommerce-Price-amount amount"><bdi class="point amet"><span class="woocommerce-Price-currencySymbol">$</span>25.90</bdi></span></del><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"></span></ins><span class="screen-reader-text text-black weight"> $19.90.</span></span>
+                             <div class="entry-description mt-3"><p class="loremi">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+                            <div class="product-list-buttons mb-4 pb-2 pt-4"><a href="#" class="text-decoration-none text-white option">Select options <i class="klbth-icon-shopping-bag-ft"></i></a></div>
+                           <div class="product_meta product-meta pt-2">
+
+                    <div class="product-sku tags pb-1">
+                        <span class="Women ">SKU:</span>
+                        <span class="sku">BE45VGRT</span>
+                    </div>
+                
+                
+                <div class="product-categories posted_in tags pb-1"><span class=" Women">Categories:</span> <a href="#" class="text-decoration-none text-black text-uppercase Pants">Pants</a>, <a href="#" class="text-decoration-none text-black text-uppercase Womens">Women</a></div>
+                <div class="product-tags tags"><span class="Women">Tags:</span> <a href="#" class="text-decoration-none text-black">black</a>, <a href="#" class="text-decoration-none text-black">white</a></div>
+                
+                </div>
+                </div> 
+                </div>
+    
+                </div>
+                <!-- <div class="swiper-pagination">
+                  <div class="page-bar">1</div>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+  </section>
+
+
+      <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+  
+
+
+      <!-- pluse icone -->
+      <script>
+
+        const icons = document.querySelectorAll('.icon');
+
+
+        icons.forEach(icon => {
+          icon.addEventListener('mouseover', () => {
+            icon.classList.remove('fa-xmark');
+            icon.classList.add('fa-minus');
+          });
+
+          icon.addEventListener('mouseout', () => {
+            icon.classList.remove('fa-minus');
+            icon.classList.add('fa-xmark');
+          });
+        });
+      </script>
+      <!-- pluse icone  end-->
+      <!-- <script>
+    const swiperEl = document.querySelector(".swiper-container2");
+    Object.assign(swiperEl, {
+      slidesPerView: 4,
+      spaceBetween: 40,
+      loop: true,
+      pagination: false,
+      navigation: {
+        nextEl: ".swiper-button-next-custom",
+        prevEl: ".swiper-button-prev-custom",
+      },
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+          spaceBetween: 0,
+        },
+        320: {
+          slidesPerView: 1
+        },
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+        200: {
+          slidesPerView: 1,
+          spaceBetween: 0,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 10,
+        },
+        1000: {
+          slidesPerView: 4,
+          spaceBetween: 30,
+        },
+      },
+    });
+    swiperEl.initialize();
+</script> -->
+      <!--------------------------svaiper------------>
+      <!-- <script>
+        const swiperEl = document.querySelector(".swiper-container2");
+        Object.assign(swiperEl, {
+          slidesPerView: 4,
+          spaceBetween: 40,
+          loop: true,
+          pagination: false,
+          navigation: {
+            nextEl: ".swiper-button-next-custom",
+            prevEl: ".swiper-button-prev-custom",
+          },
+          breakpoints: {
+            0: {
+              slidesPerView: 1,
+              spaceBetween: 0,
+            },
+            320: {
+              slidesPerView: 1
+            },
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 10,
+            },
+            200: {
+              slidesPerView: 1,
+              spaceBetween: 0,
+            },
+            768: {
+              slidesPerView: 3,
+              spaceBetween: 10,
+            },
+            1000: {
+              slidesPerView: 4,
+              spaceBetween: 30,
+            },
+          },
+        });
+        swiperEl.initialize();
+    </script> -->
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const products = document.querySelectorAll('.col-lg-3'); // Select all product columns
+
+          products.forEach(product => {
+            const productHead = product.querySelector('.product-head, .product-head1, .product-head2, .product-head3');
+            const productBox = product.querySelector('.product-box');
+            const productBox1 = product.querySelector('.product-box1');
+            const productBox2 = product.querySelector('.product-box2');
+            const productBox3 = product.querySelector('.product-box3');
+            const pageBars = product.querySelectorAll('.page-bar, .page-bar1, .page-bar2, .page-bar3');
+            const pageBar1 = product.querySelector('.page-bar1');
+            const pageBar2 = product.querySelector('.page-bar2');
+            const pageBar3 = product.querySelector('.page-bar3');
+
+            function handleMouseOver(box, imageUrl, head, bar) {
+              box.addEventListener('mouseover', function () {
+                head.style.backgroundImage = `url('${imageUrl}')`;
+                pageBars.forEach(bar => bar.classList.remove('hovered'));
+                bar.classList.add('hovered');
+              });
+
+              box.addEventListener('mouseout', function () {
+                head.style.backgroundImage = "";
+                bar.classList.remove('hovered');
+              });
+            }
+
+            handleMouseOver(productBox, 'product-img/smartphone1.jpg', productHead, pageBars[0]);
+            handleMouseOver(productBox1, 'product-img/smartphone2.jpg', productHead, pageBar1);
+            handleMouseOver(productBox2, 'product-img/smartphone3.jpg', productHead, pageBar2);
+            handleMouseOver(productBox3, 'product-img/smartphone4.jpg', productHead, pageBar3);
+          });
+        });
+      </script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+const products = document.querySelectorAll('.col-lg-4'); // Select all product columns with images
+
+products.forEach(product => {
+const productHead = product.querySelector('.product-head5');
+const productBox = product.querySelector('.product-box');
+const productBox1 = product.querySelector('.product-box1');
+const productBox2 = product.querySelector('.product-box2');
+const productBox3 = product.querySelector('.product-box3');
+const pageBars = product.querySelectorAll('.page-bar, .page-bar1, .page-bar2, .page-bar3');
+const pageBar1 = product.querySelector('.page-bar1');
+const pageBar2 = product.querySelector('.page-bar2');
+const pageBar3 = product.querySelector('.page-bar3');
+
+function handleMouseOver(box, imageUrl, head, bar) {
+  box.addEventListener('mouseover', function () {
+    head.style.backgroundImage = `url('${imageUrl}')`;
+    pageBars.forEach(bar => bar.classList.remove('hovered'));
+    bar.classList.add('hovered');
+  });
+
+  box.addEventListener('mouseout', function () {
+    head.style.backgroundImage = "";
+    bar.classList.remove('hovered');
+  });
+}
+
+handleMouseOver(productBox, 'images/pants1.jpeg', productHead, pageBars[0]);
+handleMouseOver(productBox1, 'images/pants2.jpeg', productHead, pageBar1);
+handleMouseOver(productBox2, 'images/pants3a.jpeg', productHead, pageBar2);
+handleMouseOver(productBox3, 'images/pants4a.jpeg', productHead, pageBar3);
+      
+});
+});
+</script>
+      <!-- <script>
+      
+        document.addEventListener('DOMContentLoaded', function () {
+          const slides = document.querySelectorAll('.swiper-slide');
+      
+          slides.forEach(slide => {
+            const productHead = slide.querySelector('.product-head, .product-head1, .product-head2, .product-head3');
+            const productBox = slide.querySelector('.product-box');
+            const productBox1 = slide.querySelector('.product-box1');
+            const productBox2 = slide.querySelector('.product-box2');
+            const productBox3 = slide.querySelector('.product-box3');
+            const pageBars = slide.querySelectorAll('.page-bar, .page-bar1, .page-bar2, .page-bar3');
+            const pageBar1 = slide.querySelector('.page-bar1');
+            const pageBar2 = slide.querySelector('.page-bar2');
+            const pageBar3 = slide.querySelector('.page-bar3');
+      
+            function handleMouseOver(box, imageUrl, head, bar) {
+              box.addEventListener('mouseover', function () {
+                head.style.backgroundImage = `url('${imageUrl}')`;
+                pageBars.forEach(bar => bar.classList.remove('hovered'));
+                bar.classList.add('hovered');
+              });
+      
+              box.addEventListener('mouseout', function () {
+                head.style.backgroundImage = "";
+                bar.classList.remove('hovered');
+              });
+            }
+      
+            handleMouseOver(productBox, 'product-img/smartphone1.jpg', productHead, pageBars[0]);
+            handleMouseOver(productBox1, 'product-img/smartphone2.jpg', productHead, pageBar1);
+            handleMouseOver(productBox2, 'product-img/smartphone3.jpg', productHead, pageBar2);
+            handleMouseOver(productBox3, 'product-img/smartphone4.jpg', productHead, pageBar3);
+          });
+        });
+      
+      
+      
+      </script> -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+      <!--------------------------svaiper------------>
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const rangeMin = document.getElementById('range-min');
+          const rangeMax = document.getElementById('range-max');
+          const minPriceDisplay = document.querySelector('.min-price');
+          const maxPriceDisplay = document.querySelector('.max-price');
+          const sliderTrack = document.querySelector('.slider-track');
+
+          const minGap = 10; // Minimum gap between min and max values
+
+          function updateDisplay() {
+            minPriceDisplay.textContent = `$${rangeMin.value}`;
+            maxPriceDisplay.textContent = `$${rangeMax.value}`;
+            updateSliderTrack();
+          }
+
+          function updateSliderTrack() {
+            const minPercent = (rangeMin.value / rangeMin.max) * 100;
+            const maxPercent = (rangeMax.value / rangeMax.max) * 100;
+            sliderTrack.style.background = `linear-gradient(to right, #ddd ${minPercent}%, #f00 ${minPercent}%, #f00 ${maxPercent}%, #ddd ${maxPercent}%)`;
+          }
+
+          rangeMin.addEventListener('input', function () {
+            if (parseInt(rangeMin.value) >= parseInt(rangeMax.value) - minGap) {
+              rangeMin.value = parseInt(rangeMax.value) - minGap;
+            }
+            updateDisplay();
+          });
+
+          rangeMax.addEventListener('input', function () {
+            if (parseInt(rangeMax.value) <= parseInt(rangeMin.value) + minGap) {
+              rangeMax.value = parseInt(rangeMin.value) + minGap;
+            }
+            updateDisplay();
+          });
+
+          updateDisplay();
+        });
+
+
+      </script>
+      <script>
+        $(document).ready(function(){
+          $(".threedot").click(function(){
+            $("#shopbox_A").hide();
+          });
+          $(".shopdot").click(function(){
+            $("#shopbox_A").show();
+          });
+        });
+        </script>
+
+<script>
+  $(document).ready(function(){
+    $(".threedot").click(function(){
+      $("#blackpants").show();
+    });
+    $(".shopdot").click(function(){
+      $("#blackpants").hide();
+    });
+  });
+  </script>
+
+
+      <script>
+        $(document).ready(function () {
+          $(".add").click(function () {
+            $(".sub").show();
+            $(".add").hide();
+          });
+          $(".sub").click(function () {
+            $(".add").show();
+            $(".sub").hide();
+          });
+          $(".add1").click(function () {
+            $(".sub1").show();
+            $(".add1").hide();
+          });
+          $(".sub1").click(function () {
+            $(".add1").show();
+            $(".sub1").hide();
+          });
+
+        });
+      </script>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ 
+   
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

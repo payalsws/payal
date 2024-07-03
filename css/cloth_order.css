@@ -1,0 +1,45 @@
+body{
+    font-family:var(--Jost-sans-serif);
+
+    }
+    .track_content label {
+        font-size: var(--font-14);
+        color: var(--color-black);
+        font-weight: var(--font-weight-400);
+    }
+    p.track_title {
+        font-size: var(--font-16);
+        font-weight: var(--font-weight-400);
+    }
+    button.trak_btn {
+        background:  var(---white-light);
+        border: var(--border-color-two);
+        border-radius: var(--border-radius-one);
+        font-size: var(--font-15);
+        font-weight:var(--font-weight-500);
+    }
+    .track_content  input {
+        height: 42px;
+        border-radius: var(--border-radius)!important;
+    }
+
+    .track_content input::placeholder {
+        font-size: var(--font-15);
+    }
+    button.trak_btn:hover {
+        background: var(--background-color-two);
+        color:var(--color-white);
+    }
+
+    .track_content input.form-control:focus {
+        color: var(--bs-body-color);
+        border-color: var(--color-black);
+        box-shadow: var(--box-shadow-ten);
+    }
+
+
+    @media only screen and (max-width: 992px) {
+    .container, .container-sm {
+        max-width: 690px;
+    }
+}

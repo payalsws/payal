@@ -1,0 +1,89 @@
+@media only screen and (max-width: 1400px) {
+    .product {
+        grid-template-columns: 38% 37% 19%;
+    }
+    }
+    
+    @media only screen and (max-width: 1200px) {
+    
+        .container {
+            max-width: 1060px !important;
+        }
+        .product {
+            grid-template-columns: 30% 39% 19%;
+        }
+    }
+    
+    
+    
+    @media only screen and (max-width: 991px) {
+    .product {
+    
+        grid-template-columns: 30% 30% 34%;
+    }
+    .Bsic_clrbox h1 {
+        font-size: var(--font-16);
+    }
+    .receive_tex {
+        font-size: var(--font-15);
+    }
+    .receive_tex span {
+        font-size: var(--font-15);
+    }
+    .rdo_btn label {
+        padding: 6px 40px;
+    }
+    }
+    @media only screen and (max-width: 767px) {
+    
+    
+        .product {
+            grid-template-columns: 100%
+        }
+    }
+    
+    @media only screen and (max-width: 375px) {
+    
+        ul.breadcrumb {
+            padding: 10px 0px;
+        }
+        .thb-img1{
+            min-height: 510px !important;
+        }
+        .thb-img2{
+            min-height: 510px !important;
+        }
+        .thb-img3{
+            min-height: 510px !important;
+        }
+        .thb-img4{
+            min-height: 510px !important;
+        }
+        .winevideo {
+            height: 510px !important;
+        }
+
+    }
+    @media(max-width:475px){
+        .descrap_text{
+            font-size: 18px !important;
+        }
+    }
+    @media(max-width:640px){
+        .product-box{
+          padding: 10px;
+          width:90px;
+        }
+        .product-box1 , .product-box2 , .product-icons{
+          width:25% !important;
+        }
+        .page-bar ,.page-bar1, .page-bar2,.page-bar3 {
+          width: 25% !important;
+          height: 4px;
+        }
+      }
+      @media(max-width:768px){
+        .product-main-text{
+          width: 100% !important;
+        }
+      }

@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="css/root.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <title>Bootstrap 5 Example</title>
+	   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+   <!-- icone -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- icon -->
+</head>
+
+<body>
+
+
+    <section id="main-header">
+      <header>
+        <!-- First-top One Header- Start-->
+        <div class="container-fluid px-xl-5 px-md-2 first-container border-bottom">
+          <div class="container d-lg-block d-none">
+            <div class="first-header-link d-flex align-items-center justify-content-between w-100 flex-wrap">
+              <ul class="navbar-nav first-nav">
+                <li class="list-group-item d-flex gap-3">
+                  <a href="" class="nav-link">Shipping</a>
+                  <a href="" class="nav-link">FAQ</a>
+                  <a href="contact.html" class="nav-link">Contact</a>
+                  <a href="order_traking.html" class="nav-link">Track Order</a>
+                </li>
+              </ul>
+              <div class="free-ship">
+                <a href="" class="nav-link">FREE SHIPPING WORLDWIDE</a>
+              </div>
+              <div class="d-flex align-items-center gap-2 all-icon flex-wrap">
+                <div class="social-icon d-flex gap-4">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-pinterest"></i>
+                </div>
+                <div class="d-flex two-select">
+                  <select class="form-select border-0 first-select bg-transparent" aria-label="Default select example">
+                    <option selected>English</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                  <select class="form-select border-0 bg-transparent first-select2" aria-label="Default select example">
+                    <option selected>$ USD</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- First Header-top-One -end -->
+
+        <!-- First-TopHeader Two-Start -->
+        <nav class="navbar navbar-expand-lg first-navbar-start">
+          <div class="container-fluid px-xl-5 px-0 py-md-3 py-0 border-bottom">
+            <div class="container-lg px-xl-2">
+              <div class="d-flex  justify-content-between">
+                <a class="navbar-brand head2-a" href="#">UOMO</a>
+                <button class="navbar-toggler border-0 shadow-none pe-2 me-1" type="button" data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                  <i class="bi bi-search"></i>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                  aria-labelledby="offcanvasNavbarLabel">
+                  <div class="offcanvas-header">
+
+                    <button type="button" class="btn-close shadow-none border-0" data-bs-dismiss="offcanvas"
+                      aria-label="Close"></button>
+                  </div>
+
+                  <div class="offcanvas-body w-100 ms-auto px-2">
+                    <ul class="navbar-nav header-two justify-content-end gap-4 flex-grow-1 pe-0 align-items-center">
+                      <!-- <div class="input-group first-group"> -->
+                        <!-- <input type="text" class="form-control first-inp shadow-none bg-transparent border-0 py-2" -->
+                          <!-- placeholder="Search products" /> -->
+                        <!-- <select name="" id="inputGroupSelect02" -->
+                          <!-- class="form-select shadow-none off-select1 border-0 bg-transparent"> -->
+                          <!-- <option selected>All Category</option> -->
+                        <!-- </select> -->
+                        <!-- <span class="input-group-text border-0"> -->
+                          <div class="icon">
+							 <i class="fas fa-search maginfyglass"></i>
+							<i class="fas fa-times d-none searchcross"></i>
+						    </div> 
+						  <!-- </span> -->
+                      <!-- </div> -->
+                      <div class="d-flex gap-3 head_nav2">
+					  	<!-- <li class="nav-item"> -->
+                          <!-- <a class="nav-link active p-0" aria-current="page" href="#"> -->
+						    <!-- <div class="icon"> -->
+							<!-- <i class="fas fa-search maginfyglass"></i> -->
+							<!-- <i class="fas fa-times d-none searchcross"></i> -->
+						   <!-- </div> -->
+					   
+					   <!-- </a> -->
+					<!-- </li> -->
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="my-account.html"><i
+                              class="fa-regular fa-user"></i>
+							  
+							  </a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link" href="wishlist.html"><i class="fa-regular fa-heart"></i></a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="" class="nav-link btn btn-demo" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            <i class="bi bi-bag"></i>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="" class="nav-link">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- First-TopHeader Two-End -->
+      </header>
+
+      <!-- Third Header-Start -->
+      <nav class="navbar navbar-expand-lg pb-0 third-navbar-start">
+        <div class="container-fluid container-lg px-lg-2 border-bottom">
+          <div class="dropdown second-drop">
+            <button id="dropdownMenuButton"
+              class="btn third-cat-btn d-flex justify-content-center sec-drop-btn w-100 pt-sm-3 pt-0 pb-sm-3 pb-0 border-0 shadow-none"
+              type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="d-md-block d-none">BROWSE CATEGORIES</span>
+              <a href="" class="third-cat-a"><img src="./images/categorya.png" class="d-md-none third-cat d-block"
+                  alt=""></a>
+            </button>
+            <ul class="dropdown-menu drp-menu1 custom-hide">
+              <li><a class="dropdown-item my-1" href="#">Electronic</a></li>
+              <li><a class="dropdown-item my-1" href="#">Computer</a></li>
+              <li>
+                <a class="dropdown-item my-1" href="#">Audio & Video</a>
+              </li>
+              <li>
+                <a class="dropdown-item my-1" href="#">Mobile & Tablets</a>
+              </li>
+              <li>
+                <a class="dropdown-item my-1" href="#">Tv & Audio</a>
+              </li>
+              <li>
+                <a class="dropdown-item my-1" href="#">Car & Motorbike</a>
+              </li>
+              <li>
+                <a class="dropdown-item my-1" href="#">Home & Garden</a>
+              </li>
+              <li>
+                <a class="dropdown-item my-1" href="#">Toys & Kids</a>
+              </li>
+              <li>
+                <a class="dropdown-item my-1" href="#">Sporting Goods</a>
+              </li>
+              <li>
+                <a class="dropdown-item my-1" href="#">Pet Supplies</a>
+              </li>
+              <li>
+                <a class="dropdown-item my-1" href="#">Audio & Video</a>
+              </li>
+            </ul>
+          </div>
+          <button class="navbar-toggler border-0 shadow-none pe-1" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon third-open-menu"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar2"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+
+              <ul class="navbar-nav second-ul ms-auto d-flex justify-content-between pe-2">
+                <div class="sec-ul-1 d-flex justify-content-between">
+                  <li class="nav-item">
+                    <a href="index.html" class="nav-link active">HOME</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a href="shop_page.html" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">SHOP</a>
+                    <div class="dropdown-menu pb-4">
+
+
+                      <ul class="list-unstyled list-group-horizontal d-flex justify-content-between px-5">
+
+                        <ul class="list-unstyled shopsli">
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black ">Shop Lists</a>
+                          </li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black ">Shop Default</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Shop Right Sidebar</a>
+                          </li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Shop Wide</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Filters Area</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">List Left Sidebar</a>
+                          </li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Load More Button</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Infinite Scrolling</a>
+                          </li>
+                        </ul>
+
+
+                        <ul class="list-unstyled shopsli">
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black ">Product Detail</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Product Variable</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Product Default</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Product Grouped</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Product External</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Product Downloadable</a>
+                          </li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Produt With Video</a>
+                          </li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Without Recently
+                              Viewed</a>
+                          </li>
+                        </ul>
+
+                        <ul class="list-unstyled shopsli">
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black ">Shop Lists</a>
+                          </li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black ">Shop Default</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Shop Right Sidebar</a>
+                          </li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Shop Wide</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Filters Area</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">List Left Sidebar</a>
+                          </li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Load More Button</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Infinite Scrolling</a>
+                          </li>
+                        </ul>
+
+
+                        <ul class="list-unstyled shopsli">
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black ">Shop Lists</a>
+                          </li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black ">Shop Default</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Shop Right Sidebar</a>
+                          </li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Shop Wide</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Filters Area</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">List Left Sidebar</a>
+                          </li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Load More Button</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Infinite Scrolling</a>
+                          </li>
+                        </ul>
+
+                      </ul>
+
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">BLOG</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">PAGES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="about_page.html" class="nav-link">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="\contact.html" class="nav-link">CONTACT</a>
+                  </li>
+                </div>
+                <div class="second-offer d-flex justify-content-between">
+                  <li class="nav-item">
+                    <a href="" class="nav-link">SPECIAL OFFER</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">PURCHASE THEME</a>
+                  </li>
+
+
+                </div>
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+        </ul>
+        </div>
+        </div>
+        </div>
+      </nav>
+      <!-- Third-Header-End -->
+    </section>
+	
+	
+	<!-- <div class="searchg_content"> -->
+    <div class="container">
+        <div class="position-relative mt-3" id="searchbox">
+            <div class="d-flex justify-content-between">
+                <p class="">What are you looking for?</p>
+                <i class="fas fa-times" id="alternateclose"></i>
+            </div>
+            <form action="" class="search-form search-item position-relative" method="get">
+                <div class="position-relative">
+                    <input type="search" value="" name="searchbox"
+                        class="form-control line border-0 border-bottom mb-3 px-0 border-2" autocomplete="off"
+                        placeholder="Search your favorite product...">
+                    <span class="greyfontopacity">Please type the word you want to search and press "enter"</span>
+                    <div class="searchicon position-absolute">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+
+
+                <div class="productsearch p-2 border position-absolute w-100 bg-white" id="productsearch">
+                    <div class="d-flex gap-4 mb-3">
+                        <div class="search-img">
+                            <img width="45" height="45" src="images/pants1.jpeg"
+                                class="attachment-thumbnail size-thumbnail rounded-2" alt="">
+                        </div>
+                        <div class="search-content d-flex justify-content-between w-100 align-items-center">
+                            <a href="" title="" class="text-dark"><span>Basic Colored Sweatpants With Elastic
+                                    Hems</span></a>
+                            <div class="text-end">
+                                <del class="d-block">$28.60</del>
+                                <span class="redfontnumber d-block">$19.90</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-4 mb-3">
+                        <div class="search-img">
+                            <img width="45" height="45" src="images/pants1.jpeg"
+                                class="attachment-thumbnail size-thumbnail rounded-2" alt="">
+                        </div>
+                        <div class="search-content d-flex justify-content-between w-100 align-items-center">
+                            <a href="" title="" class="text-dark"><span>Basic Colored Sweatpants With Elastic
+                                    Hems</span></a>
+                            <div class="text-end">
+                                <del class="d-block">$28.60</del>
+                                <span class="redfontnumber d-block">$19.90</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-4 mb-3">
+                        <div class="search-img">
+                            <img width="45" height="45" src="images/pants1.jpeg"
+                                class="attachment-thumbnail size-thumbnail rounded-2" alt="">
+                        </div>
+                        <div class="search-content d-flex justify-content-between w-100 align-items-center">
+                            <a href="" title="" class="text-dark"><span>Basic Colored Sweatpants With Elastic
+                                    Hems</span></a>
+                            <div class="text-end">
+                                <del class="d-block">$28.60</del>
+                                <span class="redfontnumber d-block">$19.90</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+	
+ <!-- seacrchbar page -->
+    <section class="pb-5" id="form_section">
+        <div class="container">
+		
+            <form class=" mt-2 login_form">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="logo_content border rounded-1">
+
+                            <ul class="nav nav-tabs justify-content-center border-0" role="tablist">
+                                <li class="nav-item log_actv" role="presentation">
+                                    <a class="nav-link active border-0 log_tex" id="simple-tab-0" data-bs-toggle="tab"
+                                        href="#simple-tabpanel-0" role="tab" aria-controls="simple-tabpanel-0"
+                                        aria-selected="true">Login</a>
+                                </li>
+                                <li class="nav-item log_actv" role="presentation">
+                                    <a class="nav-link border-0 log_tex" id="simple-tab-1" data-bs-toggle="tab"
+                                        href="#simple-tabpanel-1" role="tab" aria-controls="simple-tabpanel-1"
+                                        aria-selected="false">Register</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content pt-5" id="tab-content">
+                                <div class="tab-pane active" id="simple-tabpanel-0" role="tabpanel"
+                                    aria-labelledby="simple-tab-0">
+                                    <div class="">
+                                        <label for="uemail" class="form-label">Username or email address *</label>
+                                        <input type="text" class="form-control input_box rounded-1" id="uemail"
+                                            name="uemail">
+                                    </div>
+
+                                    <div class="mt-3">
+                                        <label for="Password" class="form-label">Password *</label>
+                                        <input type="Password" class="form-control input_box rounded-1" id="Password"
+                                            name="Password">
+                                    </div>
+
+                                    <div class="mt-3">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input reme_chek" type="checkbox" name="remember"> Remember me
+                                        </label>
+                                    </div>
+
+                                    <div class=" mt-4 login_btn text-center ">
+                                        <a href="dhasbord.html" class=" btn rounded-0 py-2  nav-link text-white ">Log in</a>
+                                    </div>
+
+                                    <div class=" mt-3">
+                                        <p class="pb-5 mb-5">
+                                            <a href="lost_pasword_page.html" class=" lost_text nav-link">Lost your password?</a>
+                                        </p>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="tab-pane" id="simple-tabpanel-1" role="tabpanel"
+                                    aria-labelledby="simple-tab-1">
+                                    <div class="tab-pane active" id="simple-tabpanel-0" role="tabpanel"
+                                        aria-labelledby="simple-tab-0">
+                                        <div class="">
+                                            <label for="uname" class="form-label">Username*</label>
+                                            <input type="text" class="form-control input_box rounded-1" id="uname"
+                                                name="uname" autocomplete="off">
+                                        </div>
+
+                                        <div class="mt-3">
+                                            <label for="email" class="form-label">Email address *</label>
+                                            <input type="email" class="form-control input_box rounded-1" id="email"
+                                                name="email" autocomplete="off">
+                                        </div>
+
+                                        <div class="mt-3">
+                                            <label for="password" class="form-label">Password *</label>
+                                            <input type="Password" class="form-control input_box rounded-1" id="password"
+                                                name="password">
+                                        </div>
+
+                                      
+
+                                        <div class=" mt-3 loginbtm">
+                                            <p class="support_text">
+                                                Your personal data will be used to support your experience throughout
+                                                this website,
+                                                to manage access to your account, and for other purposes described in
+                                                our
+                                                <a href="#" class="nav-link d-inline-block">privacy policy.</a>
+                                            </p>
+                                        </div>
+                                        <div class=" mt-3 login_btn text-center ">
+                                            <a href="#" class=" btn rounded-0 py-2  nav-link text-white ">Register</a>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </form>
+        </div>
+
+
+	</div>
+     
+    </section>
+	   <!-- </div> -->
+  <!-- seacrchbar page -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <!-- seacrchbar page -->
+  
+
+    <div class="container">
+      <div class="" id="searchbox">
+        <div class="d-flex justify-content-between">
+          <p class="">What are you looking for?</p>
+          <i class="fa-solid fa-xmark" id="alternateclose"></i>
+        </div>
+        <form action="" class="search-form search-item position-relative" method="get">
+          <div class="position-relative">
+            <input type="search" value="" name="searchbox"
+              class="form-control line border-0 border-bottom mb-3 px-0 border-2" autocomplete="off"
+              placeholder="Search your favorite product...">
+            <span class="greyfontopacity">Please type the word you want to search and press "enter"</span>
+            <div class="searchicon position-absolute">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+
+          <div class="productsearch p-2 border position-absolute w-100 bg-white" id="productsearch">
+            <div class="d-flex gap-4 mb-3">
+              <div class="search-img">
+                <img width="45" height="45" src="images/pants1.jpeg"
+                  class="attachment-thumbnail size-thumbnail rounded-2" alt="">
+              </div>
+              <div class="search-content d-flex justify-content-between w-100 align-items-center">
+                <a href="" title="" class="text-dark"><span>Basic Colored Sweatpants With Elastic Hems</span></a>
+                <div class="text-end">
+                  <del class="d-block">$28.60</del>
+                  <span class="redfontnumber d-block">$19.90</span>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex gap-4 mb-3">
+              <div class="search-img">
+                <img width="45" height="45" src="images/pants1.jpeg"
+                  class="attachment-thumbnail size-thumbnail rounded-2" alt="">
+              </div>
+              <div class="search-content d-flex justify-content-between w-100 align-items-center">
+                <a href="" title="" class="text-dark"><span>Basic Colored Sweatpants With Elastic Hems</span></a>
+                <div class="text-end">
+                  <del class="d-block">$28.60</del>
+                  <span class="redfontnumber d-block">$19.90</span>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex gap-4 mb-3">
+              <div class="search-img">
+                <img width="45" height="45" src="images/pants1.jpeg"
+                  class="attachment-thumbnail size-thumbnail rounded-2" alt="">
+              </div>
+              <div class="search-content d-flex justify-content-between w-100 align-items-center">
+                <a href="" title="" class="text-dark"><span>Basic Colored Sweatpants With Elastic Hems</span></a>
+                <div class="text-end">
+                  <del class="d-block">$28.60</del>
+                  <span class="redfontnumber d-block">$19.90</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </div>
+  <!-- seacrchbar page -->
+
+  <!-- seacrchbar page -->
+  <script>
+    $(document).ready(function () {
+      $('.maginfyglass').click(function () {
+        $('#searchbox').show();
+        $('.maginfyglass').addClass('d-none');
+        $('.searchcross').removeClass('d-none');
+      });
+
+      $('.searchcross').click(function () {
+        $('#searchbox').hide();
+        $('.maginfyglass').removeClass('d-none');
+        $('.searchcross').addClass('d-none');
+      });
+
+      $('.close-searchbox').click(function () {
+        $('#searchbox').hide();
+        $('.maginfyglass').removeClass('d-none');
+        $('.searchcross').addClass('d-none');
+      });
+
+      $("#alternateclose").click(function () {
+        $("#searchbox").hide();
+        $('.maginfyglass').removeClass('d-none');
+        $('.searchcross').addClass('d-none');
+      });
+    });
+  </script>
+  <!-- seacrchbar page -->
+	
+
+</body>
+
+</html>

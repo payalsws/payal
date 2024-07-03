@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1200px) {
+    #wrapper.toggled {
+        padding-left: unset !important;
+    }
+}
+@media only screen and (max-width: 991px) {
+    element.style {
+        width: 100% !important;
+        display: flex !important;
+        justify-content: space-between;
+    }
+ 
+    
+}

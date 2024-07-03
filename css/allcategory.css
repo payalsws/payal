@@ -1,0 +1,113 @@
+body {
+    font-family: var(--Jost-sans-serif) !important;
+  }
+.categy_item {
+    width: 200px;
+    box-shadow: var(--box-shadow-forteen);
+    background: #80808014;
+}
+.categy_item  img {
+    width: 60px;
+}
+.categy_item  h4 {
+    font-size: 20px;
+    font-weight: 600;
+	color:#2c2c5e;
+}
+.categre_conten{
+    flex-wrap: wrap;
+}
+.categy_item p {
+    font-size: 20px;
+    color: #2c2c5e;
+    font-weight: 600;
+}
+.categy_imgbox {
+    float: left;
+    width: 60px;
+    height: 60px;
+    z-index: 48;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: -31px;
+    box-shadow: 0px 0px 10px 0px #6b616157;
+	background: linear-gradient(120deg, #5898ff 0%, #c2e9fb 100%);
+}
+
+div#categy_item1 {
+    background: linear-gradient(to right, #0ED2F7, #B2FEFA);
+}
+div#categy_item2 {
+ 
+background: linear-gradient(to right, #5B86E5, #36D1DC); 
+
+}
+div#categy_item3 {
+
+background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+div#categy_item4 {
+    background: linear-gradient(to right, #0ED2F7, #B2FEFA);
+}
+
+
+@media (max-width: 575px) {
+	
+	/* .categy_item { */
+    /* width: 160px !important;  */
+/* } */
+/* .categy_item  h4 { */
+    /* font-size: 15px !important; */
+/* } */
+/* .categy_item p { */
+    /* font-size: 15px !important */
+/* } */
+}
+
+@media (max-width: 425px) {
+.categy_item  img {
+    width: 40px !important;
+}.categy_imgbox {  
+    width: 40px !important;
+    height: 40px !important;
+}
+.categy_item {
+    width: 265px !important;
+}
+.categy_item  h4 {
+    font-size: 15px !important;
+}
+.categy_item p {
+    font-size: 15px !important
+}
+.men {
+    text-align: center !important;
+}
+.categre_conten {
+    display: inline-block !important;
+}
+.categy_item  img {
+    width: 55px !important;
+    height: 55px;
+}
+.categy_text {
+    text-align: start;
+}.categy_item {
+    width: 265px !important;
+    margin-top: 20px;
+}
+.men {
+    text-align: center !important;
+}
+.categre_conten {
+    display: inline-block !important;
+}
+.categy_imgbox {
+    position: unset !important;
+}
+.categy_item {
+    justify-content: start !important;
+}
+}

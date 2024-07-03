@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Bar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .maginfyglass {
+        cursor: pointer;
+    }
+
+    .searchcross {
+        cursor: pointer;
+    }
+
+    .icon {
+        position: relative;
+    }
+
+    .line {
+        box-shadow: unset !important;
+    }
+
+    .searchicon {
+        top: 10px;
+        right: 10px;
+    }
+
+    .search-img img {
+        object-fit: cover;
+    }
+
+    .search-content a:hover {
+        text-decoration: none;
+        color: black;
+    }
+
+    .productsearch {
+        max-height: 190px;
+        overflow-y: auto;
+        top: 43px;
+        border-top-color: black !important;
+    }
+
+    #productsearch a {
+        font-family: var(--jostfont);
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    div#productsearch::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+    }
+
+    div#productsearch::-webkit-scrollbar-thumb:window-inactive {
+        background: rgba(255, 255, 255, 0.3);
+    }
+
+    div#productsearch::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 0.3);
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    }
+
+    div#productsearch::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+    #searchbox {
+        display: none;
+    }
+</style>
+
+<body>
+    <!-- seacrchbar page -->
+    <div class="icon">
+        <i class="fas fa-search maginfyglass"></i>
+        <i class="fas fa-times d-none searchcross"></i>
+    </div>
+    <div class="container">
+        <div class="position-relative" id="searchbox">
+            <div class="d-flex justify-content-between">
+                <p class="">What are you looking for?</p>
+                <i class="fas fa-times" id="alternateclose"></i>
+            </div>
+            <form action="" class="search-form search-item position-relative" method="get">
+                <div class="position-relative">
+                    <input type="search" value="" name="searchbox"
+                        class="form-control line border-0 border-bottom mb-3 px-0 border-2" autocomplete="off"
+                        placeholder="Search your favorite product...">
+                    <span class="greyfontopacity">Please type the word you want to search and press "enter"</span>
+                    <div class="searchicon position-absolute">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+
+
+                <div class="productsearch p-2 border position-absolute w-100 bg-white" id="productsearch">
+                    <div class="d-flex gap-4 mb-3">
+                        <div class="search-img">
+                            <img width="45" height="45" src="images/pants1.jpeg"
+                                class="attachment-thumbnail size-thumbnail rounded-2" alt="">
+                        </div>
+                        <div class="search-content d-flex justify-content-between w-100 align-items-center">
+                            <a href="" title="" class="text-dark"><span>Basic Colored Sweatpants With Elastic
+                                    Hems</span></a>
+                            <div class="text-end">
+                                <del class="d-block">$28.60</del>
+                                <span class="redfontnumber d-block">$19.90</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-4 mb-3">
+                        <div class="search-img">
+                            <img width="45" height="45" src="images/pants1.jpeg"
+                                class="attachment-thumbnail size-thumbnail rounded-2" alt="">
+                        </div>
+                        <div class="search-content d-flex justify-content-between w-100 align-items-center">
+                            <a href="" title="" class="text-dark"><span>Basic Colored Sweatpants With Elastic
+                                    Hems</span></a>
+                            <div class="text-end">
+                                <del class="d-block">$28.60</del>
+                                <span class="redfontnumber d-block">$19.90</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-4 mb-3">
+                        <div class="search-img">
+                            <img width="45" height="45" src="images/pants1.jpeg"
+                                class="attachment-thumbnail size-thumbnail rounded-2" alt="">
+                        </div>
+                        <div class="search-content d-flex justify-content-between w-100 align-items-center">
+                            <a href="" title="" class="text-dark"><span>Basic Colored Sweatpants With Elastic
+                                    Hems</span></a>
+                            <div class="text-end">
+                                <del class="d-block">$28.60</del>
+                                <span class="redfontnumber d-block">$19.90</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    </div>
+    <!-- seacrchbar page -->
+
+    <!-- seacrchbar page -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.maginfyglass').click(function () {
+                $('#searchbox').show();
+                $('.maginfyglass').addClass('d-none');
+                $('.searchcross').removeClass('d-none');
+            });
+
+            $('.searchcross').click(function () {
+                $('#searchbox').hide();
+                $('.maginfyglass').removeClass('d-none');
+                $('.searchcross').addClass('d-none');
+            });
+
+            $('#alternateclose').click(function () {
+                $('#searchbox').hide();
+                $('.maginfyglass').removeClass('d-none');
+                $('.searchcross').addClass('d-none');
+            });
+
+            // Close search box if clicked outside
+            $(document).on('click', function (e) {
+                if (!$(e.target).closest('#searchbox, .icon').length) {
+                    $('#searchbox').hide();
+                    $('.maginfyglass').removeClass('d-none');
+                    $('.searchcross').addClass('d-none');
+                }
+            });
+        });
+    </script>
+    <!-- seacrchbar page -->
+
+</body>
+
+</html>
