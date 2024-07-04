@@ -770,17 +770,20 @@ h5.product-box {
   color: white;
 }
 .pr-i1 i:hover {
-  background: #f90d37;
-  color: white !important;
+    /* background: #f90d37; */
+    background: #7fad39;
+    color: white !important;
 }
 .pr-icon i.bi.bi-bag:hover {
-  background: #f90d37;
-  color: white;
+   /* background: #f90d37; */
+    background: #7fad39;
+    color: white !important;
 }
 
 .pr-icon i.bi.bi-repeat:hover {
-  background: #f90d37;
-  color: white;
+   /* background: #f90d37; */
+    background: #7fad39;
+    color: white !important;
 }
 /*-------------------last section -----*/
 
@@ -2601,18 +2604,16 @@ margin-bottom: 1px;
 display: block;
 }
 
-.metal1{
-  color:var(--color-white);
-}
 
 .metal {
-  background-color: var(--color-black);
+  background-color: var(--color-white);
   border-radius: 50%;
   padding: 5px 10px;
 }
-.metal:hover{
-  background-color: #f90d37; 
-  color: var(--color-white); 
+.metal:hover {
+    /* background-color: #f90d37; */
+    background-color: #7fad39;
+    /* color: var(--color-white); */
 }
 .modal-content-new {
   max-width: 1020px !important;
