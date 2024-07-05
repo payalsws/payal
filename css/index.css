@@ -738,7 +738,7 @@ position: absolute;
 p.get_tex {
   font-size: 30px;
   font-weight: 500;
-  color: #2f2f5b;
+  color: var(--color-white);
 }
 span.get_tex
 .get_box::placeholder {
@@ -2363,7 +2363,7 @@ margin-bottom: 1px;
   position: absolute;
   inset: -15px;
   margin: auto;
-  background: var(--color-forthy);
+  background: var(--color-white);
   animation: diamondLoader 2s linear infinite;
 }
 @keyframes diamondLoader {
@@ -2873,7 +2873,7 @@ input[type="radio"] {
 .fa {
     font-family: var(--fa-style-family,"Font Awesome 6 Free");
     font-weight: var(--fa-style,900);
-    color: var(--color-thartynine);
+    color: var(--color-white);
 }
 p.skuye {
     font-size: 14px;
@@ -2949,7 +2949,7 @@ span.sarc_incon {
 }
 
 .banner-inner a {
-    color: #2e8724 !important;
+    color: var(--color-thartynine) !important;
 /*    color: black !important;*/
 
 }
@@ -2971,11 +2971,12 @@ span.sarc_incon {
     border-color:  var(--color-thartynine)  !important;    
 /*    border-color:#e7ab3c !important;*/
 }.sixth-trend {
-    color: #6eb447;
-  }.s-p2 {
+    color: var(--color-thirtynine);
+  }
+  .s-p2 {
     color: #5a7430;
 }footer {
-  background: linear-gradient(to right, #a8e063, #56ab2f);
+  background: linear-gradient(to right, #908f8f, #025048);
     padding-top: 35px;
 }
 .ft-icons a {
@@ -3016,7 +3017,7 @@ section.fastest_section {
     color: white;
 }
 section.products_section {
-  background: linear-gradient(to right, #a8e063, #56ab2f);
+  background: linear-gradient(to right, #908f8f, #025048);
 }
 /*second  page*/
 /*section.latest_section {

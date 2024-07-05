@@ -12,11 +12,12 @@ section.decoding {
     background-size: contain;
 }
 h4.elementor-title {
-    color:var(--color-primary);
+    color:var(--color-thartynine);
     font-size:var(--font-18);
     line-height: 1.2em;
     font-weight: var(--font-weight-400);
 }
+
 h1.elementor_heading {
     font-size: var(--font-40);
     color:var(--color-black);
@@ -50,7 +51,7 @@ a {
     color: var(--color-primary);
 }
 i.fa-solid.fa-store {
-    color: #ee403dad;
+    color: var(--color-thartynine);
     font-size:  var(--font-24);
 }
 .send_btn {

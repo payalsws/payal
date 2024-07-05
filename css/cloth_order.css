@@ -27,7 +27,7 @@ body{
         font-size: var(--font-15);
     }
     button.trak_btn:hover {
-        background: var(--background-color-two);
+        background: var(--color-thartynine);
         color:var(--color-white);
     }
 
