@@ -414,21 +414,21 @@ div#sizeChartModal .modal-dialog {
 }
 
 i.fa-brands.fa-facebook-f {
-  background: #3b5998;
+  /* background: #3b5998; */
   color: white;
   padding: 10px 13px;
   border-radius: 3px;
   font-size: 16px !important;
 }
 i.fa-brands.fa-twitter {
-  background: #1da1f2;
+  /* background: #1da1f2; */
   color: white;
   padding: 10px 12px;
   border-radius: 3px;
   font-size: 16px !important;
 }
 i.fa-brands.fa-pinterest {
-  background: #e60023;
+  /* background: #e60023; */
   color: white;
   padding: 10px 12px;
   border-radius: 3px;
@@ -440,6 +440,10 @@ i.fa-brands.fa-linkedin-in {
   padding: 10px 12px;
   border-radius: 3px;
   font-size: 16px !important;
+}
+.fa {
+
+  color: var(--color-white) !important;
 }
 i.fa-brands.fa-reddit-alien {
   background: #ff4500 !important;
@@ -730,10 +734,11 @@ div#productsearch::-webkit-scrollbar-track {
 .product-icons {
   width: 25%;
 }
+
 .pr-icon i {
   width: 35px;
   height: 35px;
-  display: flex;
+  display: flex  !important;
   justify-content: center;
   align-items: center;
   opacity: 0;
@@ -742,13 +747,12 @@ div#productsearch::-webkit-scrollbar-track {
   /* font-weight: var(--font-weight-400); */
   transform: translateX(100%);
   background-color: #fff;
-  color: #000;
-
+  color: #000 !important;
   border-radius: 50%;
   transition: transform 0.5s, opacity 0.5s;
 }
 .pr-icon i:hover {
-  background-color: red;
+  background-color: var(--color-thartynine);
   color: #fff;
 }
 .product-bg:hover .pr-icon i {
@@ -776,10 +780,11 @@ div#productsearch::-webkit-scrollbar-track {
   font-family: "Jost", sans-serif;
 }
 .product-box h5 {
-  background-color: white;
+  background-color: var(--color-thartynine);
   margin: 10px;
   padding: 3px 10px;
   text-align: center;
+  color: white;
 }
 .swiper-container2 {
   width: 100%;
@@ -907,7 +912,7 @@ div#productsearch::-webkit-scrollbar-track {
 
 /* When radio button is checked, change label styles */
 #size_buttons .inp-size[type="radio"]:checked + .lbl-size {
-  background-color: red !important;
+  background-color: var(--color-thartynine) !important;
   color: white !important;
 }
 /*  */

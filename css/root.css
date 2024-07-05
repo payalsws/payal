@@ -57,6 +57,7 @@
   --font-weight-800: 800;
   --font-weight-900: 900;
 
+
   --color-white: #fff;
   --color-one: #0000ff;
   --color-two: #845a6a;
@@ -101,9 +102,10 @@
   --color-thirty-six:#c9b1da;
   --color-thirtyseven:#be8b94;
   --color-thirtyeight:#181733c7;
-
+  --color-thartynine:#5a7433;
+  --color-forthy:#89a560;
+  
   --btn-bg-color: #0046be;
-
   --bar-bg-color: #b2b2b2;
   --bar-bg-color-two:#e5e5e5;
 
@@ -180,6 +182,7 @@
   --background-thirtynine:#2d8421;
   --background-foureteen:#dbf1ff;
   --background-fouretyone:#211f1f;
+
 
   --box-shadow-two: 0 0 0 0 rgb(8 8 8 / 25%);
   --box-shadow-one: 5px 5px 0 #f8f8f8;

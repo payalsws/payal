@@ -20,7 +20,12 @@
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
-
+.pr-icon i {
+  display: flex !important;
+}
+.slider-track {
+  background: var(--color-thartynine) !important;
+}
 .wrapper1{
     padding-left: 250px;
 }
@@ -267,13 +272,13 @@ h5.product-box {
   /* / font-weight: var(--font-weight-400); / */
   transform: translateX(100%);
   background-color: #fff;
-  color: #000;
+  color: #000 !important;
 
   border-radius: 50%;
   transition: transform 0.5s, opacity 0.5s;
 }
 .pr-icon i:hover {
-  background-color: red;
+  background-color: var(--color-thartynine);
   color: #fff;
 }
 .product-bg:hover .pr-icon i {

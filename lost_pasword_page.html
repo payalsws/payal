@@ -7,21 +7,303 @@
     <link rel="stylesheet" href="css/login.css" />
     <link rel="stylesheet" href="css/root.css" />
     <!-- <link rel="stylesheet" href="css/responsive.css" /> -->
-
+    <link rel="stylesheet" href="css/index.css" />
     <title>Bootstrap 5 Example</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
+   <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+        
+       <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+      <script src="https://kit.fontawesome.com/c2cea278ad.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    <section>
+    <header>
+        <!-- First-top One Header- Start-->
+        <div class="container-fluid px-xl-5 px-md-2 py-2 first-container border-bottom">
+          <div class="container d-lg-block d-none">
+            <div class="first-header-link d-flex align-items-center justify-content-between w-100 flex-wrap">
+              <ul class="navbar-nav first-nav">
+                <li class="list-group-item d-flex gap-3">
+                  <a href="" class="text-decoration-none">Shipping</a>
+                  <a href="" class="text-decoration-none">FAQ</a>
+                  <a href="contact.html" class="text-decoration-none">Contact</a>
+                  <a href="order_traking.html" class="text-decoration-none">Track Order</a>
+                </li>
+              </ul>
+              <div class="free-ship">
+                <a href="" class="text-decoration-none">FREE SHIPPING WORLDWIDE</a>
+              </div>
+              <div class="d-flex align-items-center gap-2 all-icon flex-wrap">
+                <div class="social-icon d-flex gap-4">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-pinterest"></i>
+                </div>
+                <div class="d-flex two-select">
+                  <select class=" border-0 first-select bg-transparent" aria-label="Default select example">
+                    <option selected>English</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                  <select class=" border-0 bg-transparent first-select2" aria-label="Default select example">
+                    <option selected>$ USD</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- First Header-top-One -end -->
+
+        <!-- First-TopHeader Two-Start -->
+        <nav class="navbar navbar-expand-lg first-navbar-start">
+          <div class="container-fluid px-xl-5 px-0 py-md-3 py-0 border-bottom">
+            <div class="container-lg px-xl-2">
+              <div class="d-flex  justify-content-between">
+                <a class="navbar-brand head2-a" href="#">UOMO</a>
+                <button class="navbar-toggler border-0 shadow-none pe-2 me-1" type="button" data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                  <i class="bi bi-search"></i>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                  aria-labelledby="offcanvasNavbarLabel">
+                  <div class="offcanvas-header">
+
+                    <button type="button" class="btn-close shadow-none border-0" data-bs-dismiss="offcanvas"
+                      aria-label="Close"></button>
+                  </div>
+
+                  <div class="offcanvas-body w-100 ms-auto px-2">
+                    <ul class="navbar-nav header-two justify-content-end gap-4 flex-grow-1 pe-0 align-items-center">
+                      <div class="input-group first-group">
+                        <input type="text" class="form-control first-inp shadow-none bg-transparent border-0 py-2"
+                          placeholder="Search products" />
+                        <select name="" id="inputGroupSelect02"
+                          class="form-select shadow-none off-select1 border-0 bg-transparent">
+                          <option selected>All Category</option>
+                        </select>
+                        <span class="input-group-text border-0 sarc_incon">
+                          <i class="bi bi-search"></i></span>
+
+                      </div>
+                      <div class="d-flex gap-3 head_nav2">
+
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="my-account.html"><i
+                              class="fa-regular fa-user"></i>
+
+                          </a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link" href="wishlist.html"><i class="fa-regular fa-heart"></i></a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="" class="nav-link btn btn-demo" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            <i class="bi bi-bag"></i>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="" class="nav-link">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- First-TopHeader Two-End -->
+      </header>
+
+      <!-- Third Header-Start -->
+      <nav class="navbar navbar-expand-lg pb-0 third-navbar-start">
+        <div class="container-fluid container-lg px-lg-2 border-bottom">
+          <div class="dropdown second-drop">
+            <button id="dropdownMenuButton"
+              class="btn third-cat-btn d-flex justify-content-center sec-drop-btn w-100 pt-sm-3 pt-0 pb-sm-3 pb-0 border-0 shadow-none"
+              type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="d-md-block d-none">BROWSE CATEGORIES</span>
+              <a href="" class="third-cat-a"><img src="./images/categorya.png" class="d-md-none third-cat d-block"
+                  alt=""></a>
+            </button>
+            <ul class="dropdown-menu drp-menu1 custom-hide">
+              <li><a class="dropdown-item my-1" href="#">Electronic</a></li>
+              <li><a class="dropdown-item my-1" href="#">Computer</a></li>
+              <li>
+                <a class="dropdown-item my-1" href="#">Audio & Video</a>
+              </li>
+              <li>
+                <a class="dropdown-item my-1" href="#">Mobile & Tablets</a>
+              </li>
+              <li>
+                <a class="dropdown-item my-1" href="#">Tv & Audio</a>
+              </li>
+              <li>
+                <a class="dropdown-item my-1" href="#">Car & Motorbike</a>
+              </li>
+              <li>
+                <a class="dropdown-item my-1" href="#">Home & Garden</a>
+              </li>
+              <li>
+                <a class="dropdown-item my-1" href="#">Toys & Kids</a>
+              </li>
+              <li>
+                <a class="dropdown-item my-1" href="#">Sporting Goods</a>
+              </li>
+              <li>
+                <a class="dropdown-item my-1" href="#">Pet Supplies</a>
+              </li>
+              <li>
+                <a class="dropdown-item my-1" href="#">Audio & Video</a>
+              </li>
+            </ul>
+          </div>
+          <button class="navbar-toggler border-0 shadow-none pe-1" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon third-open-menu"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar2"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+
+              <ul class="navbar-nav second-ul ms-auto d-flex justify-content-between pe-2">
+                <div class="sec-ul-1 d-flex justify-content-between">
+                  <li class="nav-item">
+                    <a href="index.html" class="nav-link active">HOME</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a href="shop_page.html" class="nav-link dropdown-toggle" href="#" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">SHOP</a>
+                    <div class="dropdown-menu pb-4">
+
+
+                      <ul class="list-unstyled list-group-horizontal d-flex justify-content-between px-5">
+
+                        <ul class="list-unstyled shopsli">
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black ">Shop Lists</a>
+                          </li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black ">Shop Default</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Shop Right Sidebar</a>
+                          </li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Shop Wide</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Filters Area</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">List Left Sidebar</a>
+                          </li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Load More Button</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Infinite Scrolling</a>
+                          </li>
+                        </ul>
+
+
+                        <ul class="list-unstyled shopsli">
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black ">Product Detail</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Product Variable</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Product Default</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Product Grouped</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Product External</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Product Downloadable</a>
+                          </li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Produt With Video</a>
+                          </li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Without Recently
+                              Viewed</a>
+                          </li>
+                        </ul>
+
+                        <ul class="list-unstyled shopsli">
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black ">Shop Lists</a>
+                          </li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black ">Shop Default</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Shop Right Sidebar</a>
+                          </li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Shop Wide</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Filters Area</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">List Left Sidebar</a>
+                          </li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Load More Button</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Infinite Scrolling</a>
+                          </li>
+                        </ul>
+
+
+                        <ul class="list-unstyled shopsli">
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black ">Shop Lists</a>
+                          </li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black ">Shop Default</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Shop Right Sidebar</a>
+                          </li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Shop Wide</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Filters Area</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">List Left Sidebar</a>
+                          </li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Load More Button</a></li>
+                          <li class="pb-2"><a href="#" class="text-decoration-none text-black">Infinite Scrolling</a>
+                          </li>
+                        </ul>
+
+                      </ul>
+
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">BLOG</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">PAGES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="about_page.html" class="nav-link">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="\contact.html" class="nav-link">CONTACT</a>
+                  </li>
+                </div>
+                <div class="second-offer d-flex justify-content-between">
+                  <li class="nav-item">
+                    <a href="" class="nav-link">SPECIAL OFFER</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">PURCHASE THEME</a>
+                  </li>
+
+
+                </div>
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+        </ul>
+        </div>
+        </div>
+        </div>
+      </nav>
+      <!-- Third-Header-End -->
+    <section class="mb-5">
         <div class="container">
             <!-- <div class=""> -->
                 <form class="mt-5">
@@ -42,6 +324,155 @@
             <!-- </div>   -->
         </div>
     </section>
-
+     <!--Footer  -->
+     <footer>
+        <div class="foter_top pb-md-5">
+          <div class="container-lg container-fluid ">
+            <div class="row m-0 gap-md-0 gap-3 justify-content-md-flex-start justify-content-center">
+  
+              <div class="col-lg-4 col-md-8">
+                <div class="box_one">
+                  <ul class="list-group ">
+  
+                    <li class="nav-item pb-3">
+                      <a href="#" class="nav-link fcolr" title="">UOMO</a>
+                    </li>
+  
+                    <li class="nav-item pb-3">
+                      <a href="#" class="nav-link fcolr-a" title="">1418 Rive Drive, Suite 35 Cattonhall ,CA 9622 United
+                        Statos</a>
+                    </li>
+  
+                    <li class="nav-item">
+                      <a href="#" class="nav-link fcolr-a" title="">sale@uomo.com</a>
+                    </li>
+  
+                    <li class="nav-item">
+                      <a href="#" class="nav-link fcolr-a" title="">+1 246-345-0695</a>
+                    </li>
+  
+                    <li class="nav-item  pt-lg-4 pt-2 py-0">
+                      <nav class="navbar navbar-expand">
+  
+                        <ul class="navbar-nav gap-3 ft-icons">
+                          <li class="nav-item">
+                            <a href="#" class="nav-link" title=""><i class="fa fa-facebook text-white px-1" aria-hidden="true"></i></a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="#" class="nav-link" title=""><i class="fa fa-twitter text-white " aria-hidden="true"></i></a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="#" class="nav-link" title=""> <i class="fa fa-instagram text-white "  aria-hidden="true"></i></a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="#" class="nav-link" title=""> <i class=" text-white fa fa-youtube-play"
+                                aria-hidden="true"></i></a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="#" class="nav-link" title=""> <i class="text-white fa fa-pinterest" aria-hidden="true"></i></a>
+                          </li>
+                        </ul>
+  
+                      </nav>
+                    </li>
+  
+                  </ul>
+                </div>
+              </div>
+              <!-- 2222 -->
+              <div class="col-lg-2 col-md-4">
+                <div class="box_one">
+                  <ul class="list-group ">
+                    <li><a href="#" title="" class="nav-link pb-2  fcolr"> COMPANY</a></li>
+                    <li><a href="about_page.html" class="nav-link pt-md-2 pt-1 fcolr-a" title=""> About Us</a></li>
+                    <li><a href="#" class="nav-link pt-md-2 pt-1 fcolr-a" title=""> Careers</a></li>
+                    <li><a href="#" title="" class="nav-link pt-md-2 pt-1 fcolr-a"> Affiliates</a></li>
+                    <li><a href="#" title="" class="nav-link pt-md-2 pt-1 fcolr-a"> Blog</a></li>
+                    <li><a href="contact.html" title="" class="nav-link pt-md-2 pt-1 pb-md-3 pb-1 fcolr-a"> Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- 333 -->
+              <div class="col-lg-2 col-md-8">
+                <div class="box_one">
+                  <ul class="list-group ">
+                    <li><a href="#" title=" " class="nav-link pb-2 fcolr">SHOP</a></li>
+                    <li> <a href="#" title="" class="nav-link pt-md-2 pt-1 fcolr-a"> New Arrivals</a></li>
+                    <li> <a href="#" title="" class="nav-link pt-md-2 pt-1 fcolr-a"> Accessores</a></li>
+                    <li> <a href="#" title="" class="nav-link pt-md-2 pt-1 fcolr-a"> Men</a></li>
+                    <li> <a href="#" title="" class="nav-link pt-md-2 pt-1 fcolr-a"> Women</a></li>
+                    <li> <a href="#" title="" class="nav-link pt-md-2 pt-1 fcolr-a">Shop All</a></li>
+                  </ul>
+                </div>
+              </div>
+  
+              <!-- 444 -->
+              <div class="col-lg-2 col-md-4 ">
+                <div class="box_one">
+                  <ul class="list-group ">
+                    <li><a href="#" title="" class="nav-link pb-2 fcolr"> HELP</a></li>
+                    <li> <a href="#" title="" class="nav-link pt-md-2 pt-1 fcolr-a">Customer</a></li>
+                    <li> <a href="#" title="" class="nav-link pt-md-2 pt-1 fcolr-a"> May Account </a></li>
+                    <li> <a href="#" title="" class="nav-link pt-md-2 pt-1 fcolr-a">Find a Store </a></li>
+                    <li> <a href="#" title="" class="nav-link pt-md-2 pt-1 fcolr-a">Lagal & Privacy </a></li>
+                    <li> <a href="contact.html" title="" class="nav-link pt-md-2 pt-1 fcolr-a">Contact</a></li>
+                    <li> <a href="#" title="" class="nav-link pt-md-2 pt-1 fcolr-a">Gift Card</a></li>
+                  </ul>
+                </div>
+              </div>
+              <!-- 5555 -->
+              <div class="col-lg-2 col-md-12">
+                <div class="box_one box_one-new">
+                  <ul class="list-group">
+                    <li><a href="#" class="nav-link pb-2 fcolr" title=""> OPENING TIME</a></li>
+                    <li><a href="about_page.html" class="nav-link pt-md-2 pt-1 fcolr-a" title=""> About Us</a></li>
+                    <li><a href="#" class="nav-link pt-md-2 pt-1 fcolr-a" title="">Mon-Fir: 8AM-9PM</a></li>
+                    <li><a href="#" class="nav-link pt-md-2 pt-1 fcolr-a" title="">Sat 9AM-8PM</a></li>
+                    <li><a href="#" class="nav-link pt-md-2 pt-1 fcolr-a" title="">Sun Close</a></li>
+                  </ul>
+                </div>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+  
+        <div class="box_botm border-top mt-5 py-4">
+          <div class="container">
+            <div class="row m-0">
+              <div class="col-12">
+                <div class="d-md-flex justify-content-md-between  text-center">
+                  <div class="ft-copy">
+                    <p class="mb-0">@2023 uomo</p>
+                  </div>
+  
+  
+                  <div class="ft-copy-select">
+                    <p class="mb-0">United Kingdom | <select class="border-0">
+                        <option>English</option>
+                        <option>hindi</option>
+                        <option>maths</option>
+                        <option>Sci</option>
+                      </select>
+                      <select class="border-0"> 2
+                        <option>$ USB</option>
+                        <option>hindi</option>
+                        <option>maths</option>
+                        <option>Sci</option>
+  
+                      </select>
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--  -->
+  
 </body>
 </html>

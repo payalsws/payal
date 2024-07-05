@@ -1,5 +1,5 @@
 .Shipping {
-    color: #4f5f7b;
+    color: var(--color-thartynine);
     font-weight: 700;
     font-size: 19px;
 }
@@ -11,7 +11,9 @@
 .Shippingitems{
     border: 1px solid #ebefea;
 }
-
+.fa {
+    color: var(--color-white) !important;
+}
 .red {
     accent-color: red;
 }

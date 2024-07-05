@@ -18,9 +18,9 @@ h4.entry-name {
     border: 1px solid #dee0ea;
     border-radius: 2px;
 }
- .welcom_bak .nav-tabs .nav-item.nav-link, .nav-link.active {
+.welcom_bak .nav-tabs .nav-item .nav-link.active{
     color:white !important;
-    background-color:#ee403d !important; 
+    background-color:var(--color-thartynine) !important; 
     border-color: var(--bs-nav-tabs-link-active-border-color);
 }
 .first_title p {
@@ -54,13 +54,15 @@ a.edit.nav-link {
     font-size: 16px;
     color: #ee403d;
 }
+.fa{
+    color: var(--color-white) !important;
+}
 .btn_savadd {
-    background: #ee403d;
-}.btn_savadd {
-    background: #ee403d;
+    background:var(--color-thartynine);
     font-size: 15px;
     font-weight: 500;
-}.Billing_box  .form-control:focus {
+}
+.Billing_box  .form-control:focus {
     border-color: #000000 !important;
     box-shadow: 0 0 0 0 rgb(2 2 3) !important;
 }
@@ -242,10 +244,10 @@ html,body{
       background-color: #0073aa !important;
   }
   
-  .nav-link.active {
-    background-color: red; /* Red background color */
-    color: white; /* White text color */
-}
+  /* .nav-link.active { */
+    /* background-color: red; Red background color */
+    /* color: white; White text color */
+/* } */
   .dropdown-select .option.selected {
       font-weight: 600;
       color: #12cbc4;

@@ -15,12 +15,18 @@ a.und_text:hover {
 font-size:var(--font-14);
 }
 .ship_box span {
-    color:var(--color-primary);
+    color:var(--color-thartynine);
     font-size:var(--font-13);
     font-weight:var(--font-weight-600);
 }
+.und_text {
+    color: var(--color-thartynine) !important;
+}
 .shipping_bar {
     background:var(--color-primary)!important;
+}
+.fa {
+    color: var(--color-white) !important;
 }
 .qtySelector{
 	border: var(--border-seven);
@@ -50,7 +56,7 @@ font-size:var(--font-14);
 }
 .crose_icon {
     left: -9px;
-    background: var(--color-red);
+    background: var(--color-thartynine);
     padding: 2px 4px;
     border-radius: 69%;
     font-size:var(--font-12);
@@ -69,7 +75,7 @@ font-size:var(--font-14);
     background: var(--background-color-two);
     color: var(--background-white) !important;
 }.cart_btn2 {
-    background:var(--color-primary);
+    background:var( --color-thartynine);
     padding: 0px 13px;
     height: 42px;
     opacity: 0.6;
@@ -95,7 +101,7 @@ label {
 }
 .Change {
     font-size: var(--font-14) !important;
-    color: var(--color-primary) !important;
+    color: var(--color-thartynine) !important;
 }
 .totals_box sapn {
     font-size:var(--font-14);
@@ -104,7 +110,7 @@ strong {
    font-size:var(--font-20);
 }
 .Proceed_btn {
-    background:var(--color-primary);
+    background:var(--color-thartynine);
     padding: 15px 0;
 }
 .Shipping  p {

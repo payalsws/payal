@@ -3,6 +3,8 @@
     padding:0;
     box-sizing: border-box;
 }
+
+
 .order-box-detail{
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 }
@@ -21,6 +23,7 @@
     }
 
 }
+
 
 .order-track-bar{
     position: relative;
@@ -42,7 +45,7 @@
     position: relative
 }
 .order-track-bar .track-bar.active:before{
-    background-color: var(--background-fifteen);
+    background-color: var(--color-thartynine);
 }
 .order-track-bar .track-bar::before{
 height: 7px;
@@ -53,7 +56,7 @@ top: 18px;
 left: 0;
 }
 .order-track-bar .track-bar.active .track-icon{
-    background-color: var(--background-twelve);
+    background-color: var(--color-forthy);
     color: var(--color-twentyTwo);
 }
 .order-track-bar .track-icon{
@@ -78,7 +81,7 @@ left: 0;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
     width: 200px;
     display: flex;
-    background-color: var(--background-black);
+    background-color: var(--color-thartynine);
     align-items: center;
     justify-content: center;
     height: 50px;
@@ -191,6 +194,11 @@ left: 0;
         min-height: 110px !important;
     }
 }
+.fa {
+    font-family: var(--fa-style-family,"Font Awesome 6 Free");
+    font-weight: var(--fa-style,900);
+    color: var(--color-white) !important;
+}
 .order-track-card .card{
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
     margin-top: 5px;
@@ -217,6 +225,6 @@ left: 0;
   }
 
   .order-track-btn button:hover{
-    background-color: var(--background-color-three);
+    background-color: var(--color-forthy);
     color: var(--color-white);
   }

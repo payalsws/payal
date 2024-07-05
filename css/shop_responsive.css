@@ -10,5 +10,9 @@
         justify-content: space-between;
     }
  
-    
+    #page-content-wrapper {
+        /* width: 100%; */
+        position: unset !important;
+        padding: 15px;
+    }
 }

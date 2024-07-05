@@ -17,7 +17,7 @@
 
 @media only screen and (max-width: 1200px) {
     section.tard_section {
-        top: 77px;
+        
         left: 15px !important;
     }
 }
@@ -26,6 +26,13 @@
 
     section.decoding {   
         height: 195px !important;    
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    footer {
+        margin-top: 4rem !important;
     }
 }
 @media only screen and (max-width: 575px) {

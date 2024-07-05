@@ -30,8 +30,14 @@ p.elementor_pare {
 }
 
 section.tard_section {
-    top: 77px;
+    top: 35%;
     left: 60px;
+}
+footer {
+    margin-top: 20rem;
+}
+.fa {
+    color: var(--color-white) !important;
 }
 .clothy_title 
 h4 {

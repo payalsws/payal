@@ -7,8 +7,11 @@
     font-weight: 400;
 }
 .cartbtn {
-    background: var(--modal-red);
+    background: var(--color-thartynine);
     border-radius: 2px;
+}
+.share_icon a {
+    color: var(--color-thartynine);
 }
 .product_table td {
     vertical-align: middle;
@@ -21,7 +24,7 @@
 }
 .add_cadbox .cd_btn {
     width: 30%;
-    background: #ee403d;
+    background: var(--color-thartynine);
    height: 42px;
 }
 .Cart_btn {
@@ -32,7 +35,7 @@
 }.add_cadbox .cd_btn:hover {
     opacity: 0.8;
 }.ret_shop {
-    background: #ee403d !important;
+    background: var(--color-thartynine) !important;
     display: inline-block !important;
     font-family: Jost, sans-serif;
 }
